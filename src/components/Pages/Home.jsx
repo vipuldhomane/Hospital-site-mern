@@ -162,13 +162,38 @@ const departmentData = [
     href: "/departments/department-details",
   },
   {
-    title: "Psychiatry Department",
+    title: "Orthology Department",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Orthology Department",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Orthology Department",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Orthology Department",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Orthology Department",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/department-details",
+  },
+  {
+    title: "Orthology Department",
     iconUrl: "images/home_1/department_icon_6.svg",
     href: "/departments/department-details",
   },
 ];
+// Edit here for contact details and services 
 const infoList = [
-  // Edit here for contact details and serices
   {
     title: "Hotline",
     subTitle: "123-456-7890",

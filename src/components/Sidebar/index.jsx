@@ -55,12 +55,12 @@ export default function Sidebar() {
       <div className="cs_sidebar_item widget_categories">
         <SideMenuWidget title="Popular Categories" data={categoryData} />
       </div>
-      <div className="cs_sidebar_item">
+      {/* <div className="cs_sidebar_item">
         <RecentPostWidget title="Popular Articles" data={recentPostData} />
       </div>
       <div className="cs_sidebar_item widget_categories">
         <NewsletterStyle5 title="Newsletter Sign Up Form" />
-      </div>
+      </div> */}
     </div>
   );
 }

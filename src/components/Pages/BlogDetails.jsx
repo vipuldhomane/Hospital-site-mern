@@ -54,17 +54,17 @@ export default function BlogDetails() {
         <div className="cs_blog_details_info">
           <div className="cs_blog_details_info_left">
             <div className="cs_blog_details_tags">
-              {tags.map((item, index) => (
+              {/* {tags.map((item, index) => (
                 <Link key={index} to={item.href}>
                   {item.tag}
                 </Link>
-              ))}
+              ))} */}
             </div>
             <div className="cs_blog_details_date">
               March 12, 2023 | Debri Bianca
             </div>
           </div>
-          <div className="cs_social_links_wrap">
+          {/* <div className="cs_social_links_wrap">
             <h2>Share:</h2>
             <div className="cs_social_links">
               <Link to="/">
@@ -77,7 +77,7 @@ export default function BlogDetails() {
                 <Icon icon="fa-brands:twitter" />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <Spacing md="55" />
         <img
@@ -89,6 +89,7 @@ export default function BlogDetails() {
         <div className="row">
           <div className="col-lg-8">
             <div className="cs_blog_details">
+
               <h2>What is Anxiety Disorders</h2>
               <p>
                 Anxiety disorders are a type of mental health disorder
@@ -242,15 +243,15 @@ export default function BlogDetails() {
               </p>
             </div>
             <Spacing md="85" />
-            <AuthorWidget
+            {/* <AuthorWidget
               imgUrl="/images/blog/author.png"
               name="Author Bio"
               description="John Smith is a freelance writer and content strategist with a passion for helping businesses tell their stories. With over 10 years of experience in the industry, John has worked with a wide range of clients, from startups to Fortune 500 companies. He holds a Bachelor's degree in English from the University of California, Los Angeles (UCLA), and is an avid reader and traveler in his free time. Follow him on Twitter @johnsmithwriter for the latest updates on his work."
-            />
-            <Spacing md="110" />
+            /> */}
+            {/* <Spacing md="110" />
             <CommentsWidget title="Comments" />
             <Spacing md="92" />
-            <ReplyWidget title="Leave a Reply" />
+            <ReplyWidget title="Leave a Reply" /> */}
           </div>
           <div className="col-lg-4">
             <Sidebar />
@@ -267,14 +268,14 @@ export default function BlogDetails() {
           ))}
         </div>
       </div>
-      <Spacing md="200" xl="150" lg="110" />
-      <Section className="cs_footer_margin_0">
+      {/* <Spacing md="200" xl="150" lg="110" /> */}
+      {/* <Section className="cs_footer_margin_0">
         <BannerSectionStyle9
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
           imgUrl="/images/doctors/banner_img_3.png"
         />
-      </Section>
+      </Section> */}
     </>
   );
 }
