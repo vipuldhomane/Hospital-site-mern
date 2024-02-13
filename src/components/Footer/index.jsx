@@ -6,15 +6,13 @@ import Newsletter from '../Widget/Newsletter';
 import TextWidget from '../Widget/TextWidget';
 const menuDataOne = [
   { title: 'About Us', href: '/about' },
-  { title: 'Departments', href: '/departments' },
-  { title: 'Doctors', href: '/doctors' },
-  { title: 'Timetable', href: '/timetable' },
-  { title: 'Appointment', href: '/appointments' },
+  
+  
+  
+  { title: 'Contact', href: '/' },
   { title: 'Testimonials', href: '/' },
 ];
 const menuDataTwo = [
-  { title: 'Blog', href: '/blog' },
-  { title: 'Contact Us', href: '/contact' },
   { title: 'FAQs', href: '/' },
   { title: 'Privacy Policy', href: '/' },
   { title: 'Terms and Conditions', href: '/' },

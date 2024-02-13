@@ -279,23 +279,23 @@ export default function Home() {
       {/* End Banner Section */}
 
       {/* Start Blog Section */}
-      <Section topMd={190} topLg={145} topXl={105}>
+      {/* <Section topMd={190} topLg={145} topXl={105}>
         <BlogSection
           sectionTitle="Latest Update"
           sectionTitleUp="BLOG POSTS"
           data={blogData}
         />
-      </Section>
+      </Section> */}
       {/* End Blog Section */}
 
       {/* Start Appointment Section */}
-      <Section topMd={190} topLg={145} topXl={105} id="appointment">
+      {/* <Section topMd={190} topLg={145} topXl={105} id="appointment">
         <AppointmentSection
           sectionTitle="Appointment"
           sectionTitleUp="BOOK AN"
           imgUrl="/images/home_1/appointment.jpeg"
         />
-      </Section>
+      </Section> */}
       {/* End Appointment Section */}
       
       {/* Start FAQ Section */}
@@ -309,7 +309,7 @@ export default function Home() {
       {/* End FAQ Section */}
 
       {/* Start Brand Section */}
-      <Section
+      {/* <Section
         topMd={200}
         topLg={150}
         topXl={110}
@@ -318,7 +318,7 @@ export default function Home() {
         bottomXl={110}
       >
         <BrandsSection data={brandData} />
-      </Section>
+      </Section> */}
       {/* End Brand Section */}
     </>
   );

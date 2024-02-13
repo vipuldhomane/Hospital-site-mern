@@ -161,6 +161,7 @@ export default function About() {
           data={departmentData}
         />
       </Section>
+
       <Section topMd={175} topLg={125} topXl={85} bottomMd={100} bottomLg={110}>
         <FeaturesSectionStyle2
           sectionTitle="Why Choose Us"
@@ -168,12 +169,12 @@ export default function About() {
           data={featureListData}
         />
       </Section>
-      <Section>
+      {/* <Section>
         <FunFactSection
           bgUrl="images/about/fun_fact_bg.jpeg"
           data={funFactData}
         />
-      </Section>
+      </Section> */}
       <Section topMd={190} topLg={145} topXl={105}>
         <TeamSection
           sectionTitle="Experts Doctor"
@@ -181,6 +182,7 @@ export default function About() {
           data={teamData}
         />
       </Section>
+
       <Section topMd={170} topLg={120} topXl={80}>
         <GallerySection
           sectionTitle="Our Facilities and <br />Latest Activities"
@@ -188,6 +190,7 @@ export default function About() {
           data={galleryData}
         />
       </Section>
+      
       <Section
         topMd={190}
         topLg={145}
@@ -196,12 +199,12 @@ export default function About() {
         bottomLg={150}
         bottomXl={110}
       >
-        <AwardSectionStyle2
+        {/* <AwardSectionStyle2
           sectionTitle="Winning Awards and <br />Recognition"
           sectionTitleUp="AWARDS"
           sectionSubTitle="We have been recognized for our commitment to <br />excellence in healthcare."
           data={awardData}
-        />
+        /> */}
       </Section>
       <Section className="cs_footer_margin_0">
         <BannerSectionStyle4

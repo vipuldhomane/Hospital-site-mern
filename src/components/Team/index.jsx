@@ -24,11 +24,11 @@ export default function Team({
         </div>
         <div>
           <div className="cs_social_links">
-            {social?.map((item, index) => (
+            {/* {social?.map((item, index) => (
               <Link to={item.href} key={index}>
                 <Icon icon={item.icon} />
               </Link>
-            ))}
+            ))} */}
           </div>
         </div>
       </div>

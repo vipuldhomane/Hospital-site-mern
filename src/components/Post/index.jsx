@@ -20,7 +20,7 @@ export default function Post({
         <div>
           <div className="cs_post_meta">
             <div className="cs_posted_by">{date}</div>
-            {socialShare && (
+            {/* {socialShare && (
               <div className="cs_post_social">
                 <Link to="/" className="cs_center rounded-circle">
                   <Icon icon="fa-brands:linkedin-in" />
@@ -32,19 +32,19 @@ export default function Post({
                   <Icon icon="fa-brands:twitter" />
                 </Link>
               </div>
-            )}
+            )} */}
           </div>
           <h2 className="cs_post_title cs_semibold cs_fs_32">
             <Link to={href}>{title}</Link>
           </h2>
         </div>
-        {btnText && (
+        {/* {btnText && (
           <div className="cs_heading_color cs_medium">
             <Link to={href} className="cs_post_btn">
               {btnText}
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );
