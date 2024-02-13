@@ -45,7 +45,8 @@ export default function Blog1() {
   return (
     <>
       <Section topMd={170} bottomMd={54} bottomLg={54}>
-        <Breadcrumb title="The Importance of Mental Health: Understanding and Managing Anxiety Disorders" />
+        {/* Main Heading */}
+        <Breadcrumb title="Heading" />
       </Section>
       <div className="container">
         <div className="cs_blog_details_info">
