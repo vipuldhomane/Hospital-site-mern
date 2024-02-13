@@ -14,6 +14,9 @@ import Gallery from "./components/Pages/Gallery";
 import Contact from "./components/Pages/Contact";
 import { useEffect } from "react";
 import ErrorPage from "./components/Pages/ErrorPage";
+import Blog1 from "./components/Pages/Blog1";
+import Blog2 from "./components/Pages/Blog2";
+import Blog3 from "./components/Pages/Blog3";
 
 function App() {
   const { pathname } = useLocation();
@@ -27,6 +30,10 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="blog" element={<Blog />} />
+       
+        <Route path="blog/blog1" element={<Blog1 />} />
+        <Route path="blog/blog2" element={<Blog2 />} />
+        <Route path="blog/blog3" element={<Blog3 />} />
         <Route path="blog/:blogId" element={<BlogDetails />} />
 
         <Route path="gallery" element={<Gallery />} />

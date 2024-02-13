@@ -40,7 +40,7 @@ const relatedBlog = [
   },
 ];
 
-export default function BlogDetails() {
+export default function Blog2() {
   pageTitle('Blog Details');
   return (
     <>
@@ -87,7 +87,7 @@ export default function BlogDetails() {
           <div className="col-lg-8">
             <div className="cs_blog_details">
 
-              <h2>Main Blog</h2>
+              <h2>Blog2</h2>
               <p>
                 Anxiety disorders are a type of mental health disorder
                 characterized by feelings of worry, anxiety, or fear that are
