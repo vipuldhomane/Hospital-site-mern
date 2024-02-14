@@ -19,30 +19,31 @@ const featureListData = [
     iconSrc: "/images/home_1/compassion.svg",
     title: "Compassion",
     subTitle:
-      "We understand that seeking medical care can be a stressful and emotional experience, and we strive to create a welcoming and supportive environment that puts our patients at ease and every one.",
+      "At Taywade Multispeciality Hospital, We acknowledge the significance of compassion in the healing process and approach healthcare with respect and understanding. We treat each patient with compassion, decency, and respect to lessen pain and offer consolation during illness.",
   },
   {
     iconSrc: "/images/home_1/excellence.svg",
     title: "Excellence",
     subTitle:
-      "We are committed to providing excellent medical care and services to our patients. We believe in continuously improving our skills, knowledge, and resources to ensure that we deliver the highest quality care possible.",
+      " From clinical treatment to customer service, we are dedicated to excellence in every business facet. To provide the greatest results for our patients, our team of healthcare professionals respects the highest quality standards and always looks for ways to innovate and improve.",
   },
   {
     iconSrc: "/images/home_1/integrity.svg",
     title: "Integrity",
-    subTitle: `We believe in practicing medicine with integrity and honesty. We are transparent in our communication and decision-making processes, and we always put our patient's interests first & provide best solution.`,
+    subTitle: `Our relationships with patients, coworkers, and the community are built on integrity. Our commitment to integrity in every choice and action has allowed us to gain the trust and confidence of those we serve. We conduct ourselves with honesty, transparency, and ethical integrity.
+    `,
   },
   {
     iconSrc: "/images/home_1/respect.svg",
-    title: "Respect",
+    title: "Innovation",
     subTitle:
-      "We treat all individuals with respect and dignity, regardless of their background, beliefs, or circumstances. We believe that every person deserves to be treated with compassion and kindness.",
+      "Innovation drives progress in healthcare, and at Taywade Multispeciality Hospital, We welcome innovation as a way to improve patient outcomes and care. We invest in the newest technology, research, and evidence-based methods to maintain our position at the forefront of medical innovations and continuously improve our services.",
   },
   {
     iconSrc: "/images/home_1/teamwork.svg",
-    title: "Teamwork",
+    title: "Patient-centred Care",
     subTitle:
-      "We believe in working collaboratively with our team membersvand other healthcare professionals to provide comprehensive and effective care to our patients.",
+      "Our commitment to patient-centred care is the foundation of our principles. We make sure that every person receives individualized attention, respect, and the best possible care throughout their healthcare journey by putting their needs, preferences, and well-being first in all we do.",
   },
 ];
 
@@ -137,85 +138,67 @@ const awardData = [
 ];
 const departmentData = [
   {
-    title: "Emergency Department",
+    title: "Emergency",
     iconUrl: "images/home_1/department_icon_1.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Pediatric Departement",
+    title: "Pediatric",
     iconUrl: "images/home_1/department_icon_2.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Gynecology Department",
+    title: "Gynecology",
     iconUrl: "images/home_1/department_icon_3.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Cardiology Department",
+    title: "Cardiology",
     iconUrl: "images/home_1/department_icon_4.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Neurology Department",
+    title: "Neurology",
     iconUrl: "images/home_1/department_icon_5.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Orthology Department",
+    title: "Orthopaedics",
     iconUrl: "images/home_1/department_icon_6.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Orthology Department",
+    title: "Ear, Nose & Throat",
     iconUrl: "images/home_1/department_icon_6.svg",
     href: "/departments/department-details",
   },
   {
-    title: "Orthology Department",
+    title: "Urology",
     iconUrl: "images/home_1/department_icon_6.svg",
     href: "/departments/department-details",
   },
-  {
-    title: "Orthology Department",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/department-details",
-  },
-  {
-    title: "Orthology Department",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/department-details",
-  },
-  {
-    title: "Orthology Department",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/department-details",
-  },
+  
 ];
 // Edit here for contact details and services 
 const infoList = [
   {
     title: "Hotline",
-    subTitle: "123-456-7890",
+    subTitle: "+91 9730014161",
     iconUrl: "/images/contact/icon_1.svg",
   },
-  {
-    title: "Ambulance",
-    subTitle: "876-256-876",
-    iconUrl: "/images/icons/ambulance.svg",
-  },
+  
   {
     title: "Location",
-    subTitle: "Nagpur Maharashtra",
+    subTitle: "Shatabdi Sq, Manewada Ring Road, Nagpur",
     iconUrl: "/images/icons/pin.svg",
   },
 ];
 const aboutFeatureList = [
   {
     featureListTitle:
-      "ProHealth is a team of experienced medical professionals",
+      "Taywade Multispeciality Hospital is a team of experienced medical professionals",
     featureListSubTitle:
-      "Dedicated to providing top-quality healthcare services. We believe in a holistic approach to healthcare that focuses on treating the whole person, not just the illness or symptoms.",
+      "At Taywade Multispeciality Hospital, we provide extensive medical treatments customized to meet your needs. We put your health and well-being first, with cutting-edge facilities and a committed team of professionals. Taywade Multispeciality Hospital offers excellent care that is delivered with compassion. Your dependable healthcare partner.",
   },
 ];
 export default function Home() {
@@ -254,7 +237,7 @@ export default function Home() {
           imgUrl="/images/home_1/about.png"
           spiningImgUrl="/images/home_1/about_mini.svg"
           title="About Us"
-          subTitle="PRO HEALTH"
+          subTitle="Taywade Multispeciality Hospital"
           featureList={aboutFeatureList}
         />
       </Section>

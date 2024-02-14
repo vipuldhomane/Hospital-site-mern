@@ -49,7 +49,7 @@ export default function Hero({
             ))}
             <div className="cs_hero_info_col">
               <Link to={btnUrl} className="cs_btn cs_style_1">
-                <span>{btnText}</span>
+                <span>Visit Now</span>
                 <i>
                   <img src="/images/icons/arrow_white.svg" alt="Icon" />
                   <img src="/images/icons/arrow_white.svg" alt="Icon" />

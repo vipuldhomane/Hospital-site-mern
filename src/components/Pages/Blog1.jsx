@@ -161,7 +161,7 @@ export default function Blog1() {
                 of anxiety disorders or their symptoms, so professional help
                 should always be sought for mental health concerns.
               </p>
-              <blockquote
+              {/* <blockquote
                 style={{
                   backgroundImage: 'url("/images/blog/blog_details_2.jpeg")',
                 }}
@@ -171,7 +171,7 @@ export default function Blog1() {
                   combination of psychotherapy, behavioral therapy, and
                   medication.”
                 </p>
-              </blockquote>
+              </blockquote> */}
               <h2>
                 How to Manage Anxiety Disorders: Techniques and Strategies
               </h2>

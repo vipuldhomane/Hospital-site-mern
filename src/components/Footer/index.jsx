@@ -9,8 +9,8 @@ const menuDataOne = [
   
   
   
-  { title: 'Contact', href: '/' },
-  { title: 'Testimonials', href: '/' },
+  { title: 'Contact', href: '/contact' },
+  { title: 'Testimonials', href: '/about' },
 ];
 const menuDataTwo = [
   { title: 'FAQs', href: '/' },
@@ -29,12 +29,14 @@ export default function Footer() {
           className="cs_footer_brand"
           style={{ backgroundImage: 'url(/images/footer_logo_bg.svg)' }}
         >
-          <img
-            src="/images/logo_icon.svg"
+          {/* <img
+            src="/images/taywadelogo.png"
             alt="Logo Icon"
             className="cs_footer_brand_icon"
-          />
-          <h2 className="cs_footer_brand_text">ProHealth</h2>
+          /> */}
+          <h2 className="cs_footer_brand_text">Taywade</h2>
+          <h2 className="cs_footer_brand_text">MultiSpecialty</h2>
+          <h2 className="cs_footer_brand_text">Hospital</h2>
         </div>
       </div>
       <div className="cs_footer_main">
@@ -42,7 +44,7 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-4">
               <div className="cs_footer_item">
-                <TextWidget text="ProHealth Medical & <br />Healthcare Center" />
+                <TextWidget text="Taywade Multispeciality Hospital" />
                 <ContactInfoWidget />
               </div>
             </div>
@@ -59,8 +61,8 @@ export default function Footer() {
             <div className="col-lg-4">
               <div className="cs_footer_item">
                 <Newsletter
-                  title="Be Our Subscribers"
-                  subTitle="To get the latest news about health from our experts"
+                  title="Visit Us!"
+                  subTitle="To get health advice from our experts"
                 />
               </div>
             </div>
@@ -72,7 +74,7 @@ export default function Footer() {
           <div className="cs_footer_bottom_in">
             <SocialWidget />
             <div className="cs_copyright">
-              Copyright © 2024 Pro Health. All rights reserved.
+              Copyright © 2024 Taywade Multispeciality Hospital. All rights reserved.
             </div>
           </div>
         </div>

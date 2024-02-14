@@ -37,7 +37,7 @@ export default function Header({ logoSrc, variant }) {
             <div className="cs_main_header_in">
               <div className="cs_main_header_left">
                 <Link className="cs_site_branding" to="/">
-                  <img src={logoSrc} alt="Logo" />
+                  <img style={{height:"50px", width: "auto"}} src='/images/taywadelogofit.png' alt="Logo" />
                 </Link>
                 <nav className="cs_nav">
                   <ul
