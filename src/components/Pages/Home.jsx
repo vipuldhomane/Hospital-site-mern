@@ -59,30 +59,26 @@ const brandData = [
 ];
 const faqData = [
   {
-    title: "What services does ProHealth offer?",
+    title: "Is hospital open 24*7 ?",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "Yes we are available 24*7 for emergencies and non life threatening conditions.",
   },
   {
-    title: "How do I schedule an appointment with ProHealth?",
+    title: "Does Hospital have inhouse pharmacy?    ",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "Yes Hospital have a 24*7 pharmacy in its premises for the convenience of patients       ",
   },
   {
     title: "Do you accept insurance?",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "Yes we accept wide range of health insurance ",
   },
   {
     title: "What should I bring to my appointment?",
     content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
+      "When preparing for your appointment at our multispeciality hospital, it's essential to carry Photo ID,Insurance Information,Medical Records,List of Medications",
   },
-  {
-    title: "How do I request a prescription refill?",
-    content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
-  },
+  
 ];
 const blogData = [
   {
@@ -196,9 +192,9 @@ const infoList = [
 const aboutFeatureList = [
   {
     featureListTitle:
-      "Taywade Multispeciality Hospital is a team of experienced medical professionals",
+      "Taywade MultiSpecialty Hospital is a team of experienced medical professionals",
     featureListSubTitle:
-      "At Taywade Multispeciality Hospital, we provide extensive medical treatments customized to meet your needs. We put your health and well-being first, with cutting-edge facilities and a committed team of professionals. Taywade Multispeciality Hospital offers excellent care that is delivered with compassion. Your dependable healthcare partner.",
+      "At Taywade MultiSpecialty Hospital, we provide extensive medical treatments customized to meet your needs. We put your health and well-being first, with cutting-edge facilities and a committed team of professionals. Taywade Multispeciality Hospital offers excellent care that is delivered with compassion. Your dependable healthcare partner.",
   },
 ];
 export default function Home() {

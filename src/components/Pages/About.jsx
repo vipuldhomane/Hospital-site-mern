@@ -18,9 +18,9 @@ const departmentData = [
     href: '/departments/department-details',
   },
   {
-    title: 'Rehabilitation services',
+    title: 'Orthopedic Services',
     subTitle:
-      'Physical therapy, occupational therapy, and other services to help patients recover from injuries',
+      'offer expert care for injuries and conditions, prioritizing mobility, pain relief, and recovery      ',
     iconUrl: '/images/icons/calendar_white.svg',
     href: '/departments/department-details',
   },
@@ -39,9 +39,9 @@ const departmentData = [
     href: '/departments/department-details',
   },
   {
-    title: 'Mental health services',
+    title: 'Casualty 24 x 7    ',
     subTitle:
-      'Counseling, therapy, and other services to help patients manage mental health conditions',
+      'Round-the-clock casualty services, ensuring prompt and expert care for emergencies at any hour      ',
     iconUrl: '/images/icons/calendar_white.svg',
     href: '/departments/department-details',
   },
@@ -49,27 +49,27 @@ const departmentData = [
 
 const featureListData = [
   {
-    title: 'Experienced Medical Professionals',
+    title: 'All-inclusive Care',
     subTitle:
-      'Our team includes experienced doctors, nurses, <br />and other healthcare professionals who are <br />dedicated to providing the best possible care to <br />our patients.',
+      'Our comprehensive medical specializations and services are provided under one roof, guaranteeing comprehensive and integrated healthcare for all your requirements. ',
     iconUrl: 'images/icons/professional.svg',
   },
   {
-    title: 'Comprehensive <br />Services',
+    title: 'Expert Team',
     subTitle:
-      'We offer a wide range of healthcare services, <br />from preventive care to specialized treatment <br />for complex conditions.',
+      'Our hospital is home to highly skilled medical professionals and other healthcare workers committed to offering the best possible treatment.',
     iconUrl: 'images/icons/comprehensive.svg',
   },
   {
-    title: 'Patient-centered <br />Approach',
+    title: 'Modern Technology:',
     subTitle:
-      'We believe in treating each patient as an <br />individual, and we take the time to understand <br />your unique health needs and concerns.',
+      'To provide accurate diagnoses and efficient treatments, we use cutting-edge medical equipment and technologies',
     iconUrl: 'images/icons/patient.svg',
   },
   {
-    title: 'State-of-the-art <br />Facilities',
+    title: 'Patient-Centered Approach',
     subTitle:
-      'Our healthcare center is equipped with the <br />latest technology and equipment to provide our <br />patients with the most advanced care possible.',
+      `We aim to deliver individualized care for each patient's needs and preferences. Patient comfort, safety, and satisfaction are our top priorities at our hospital.`,
     iconUrl: 'images/icons/facilities.svg',
   },
 ];
@@ -151,7 +151,7 @@ export default function About() {
       <BannerSectionStyle3
         bgUrl="/images/about/banner_bg.svg"
         imgUrl="/images/about/banner_img.png"
-        title="Welcome to <br />ProHealth Medical & Healthcare Center"
+        title="Welcome to <br />Taywade MultiSpecialty Hospital"
         subTitle="Your Partner in Health and Wellness"
       />
       <Section topMd={200} topLg={150} topXl={110}>
@@ -206,14 +206,14 @@ export default function About() {
           data={awardData}
         /> */}
       </Section>
-      <Section className="cs_footer_margin_0">
+      {/* <Section className="cs_footer_margin_0">
         <BannerSectionStyle4
           bgUrl="images/about/banner_bg_2.jpeg"
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
           center
         />
-      </Section>
+      </Section> */}
     </>
   );
 }
