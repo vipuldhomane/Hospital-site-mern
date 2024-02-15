@@ -8,6 +8,7 @@ import Post from "../Post";
 import Sidebar from "../Sidebar";
 
 import { pageTitle } from "../../helpers/PageTitle";
+import { relatedBlogData } from "./relatedBlogData";
 const tags = [
   { tag: "Emergency", href: "/blog/blog-details" },
   { tag: "Pediatric", href: "/blog/blog-details" },
@@ -15,30 +16,32 @@ const tags = [
   { tag: "Psychiatry", href: "/blog/blog-details" },
   { tag: "Others", href: "/blog/blog-details" },
 ];
-const relatedBlog = [
-  {
-    title:
-      "The Importance of Mental Health: Understanding and Managing Anxiety Disorders",
-    thumbUrl: "/images/blog/post_1.jpeg",
-    date: "March 12",
-    btnText: "Learn More",
-    href: "/blog/blog-details",
-  },
-  {
-    title: `A Parent's Guide to Childhood Vaccinations: What You Need to Know`,
-    thumbUrl: "/images/blog/post_2.jpeg",
-    date: "March 11",
-    btnText: "Learn More",
-    href: "/blog/blog-details",
-  },
-  {
-    title: "Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle",
-    thumbUrl: "/images/blog/post_3.jpeg",
-    date: "March 9",
-    btnText: "Learn More",
-    href: "/blog/blog-details",
-  },
-];
+const relatedBlog = relatedBlogData
+// const relatedBlog = [
+//   {
+//     title:
+//       "The Importance of Mental Health: Understanding and Managing Anxiety Disorders",
+//     thumbUrl: "/images/blog/post_1.jpeg",
+//     date: "March 12",
+//     btnText: "Learn More",
+//     href: "/blog/blog-details",
+//   },
+//   {
+//     title: `A Parent's Guide to Childhood Vaccinations: What You Need to Know`,
+//     thumbUrl: "/images/blog/post_2.jpeg",
+//     date: "March 11",
+//     btnText: "Learn More",
+//     href: "/blog/blog-details",
+//   },
+//   {
+//     title: "Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle",
+//     thumbUrl: "/images/blog/post_3.jpeg",
+//     date: "March 9",
+//     btnText: "Learn More",
+//     href: "/blog/blog-details",
+//   },
+// ];
+
 
 export default function Blog2() {
   pageTitle("Blog Details");
