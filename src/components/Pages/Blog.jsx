@@ -7,7 +7,7 @@ import { pageTitle } from '../../helpers/PageTitle';
 const blogData = [
   {
     title:
-      'The Importance of Mental Health: Understanding and Managing Anxiety Disorders',
+      'Managing Your Medical Travels: An Overview of Multispecialty Hospitals',
     thumbUrl: 'images/blog/post_1.jpeg',
     date: 'March 12',
     btnText: 'Learn More',
@@ -15,7 +15,7 @@ const blogData = [
     socialShare: true,
   },
   {
-    title: `A Parent's Guide to Childhood Vaccinations: What You Need to Know`,
+    title: `Understand Orthopedic Care: Symptoms and Treatment`,
     thumbUrl: 'images/blog/post_2.jpeg',
     date: 'March 11',
     btnText: 'Learn More',
@@ -23,7 +23,7 @@ const blogData = [
     socialShare: true,
   },
   {
-    title: 'Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle',
+    title: 'Nurturing Health from the Start: Understanding Pediatric Care',
     thumbUrl: 'images/blog/post_3.jpeg',
     date: 'March 9',
     btnText: 'Learn More',
@@ -31,27 +31,27 @@ const blogData = [
     socialShare: true,
   },
   {
-  title: 'Managing Chronic Pain: Treatment Options and Strategies',
+  title: 'Understanding Cardiology Care',
   thumbUrl: 'images/blog/post_4.jpeg',
   date: 'March 8',
   btnText: 'Learn More',
-  href: '/blog/blog-details',
+  href: '/blog/blog4',
   socialShare: true,
 },
 {
-  title: 'Understanding and Managing Diabetes: Tips for Healthy Living',
+  title: `Empowering Women's Health: Navigating Gynecology Care`,
   thumbUrl: 'images/blog/post_5.jpeg',
   date: 'March 5',
   btnText: 'Learn More',
-  href: '/blog/blog-details',
+  href: '/blog/blog5',
   socialShare: true,
 },
 {
-  title: 'The Role of Physical Therapy in Injury Recovery and Prevention',
+  title: 'Neurology Care: Understanding Symptoms and Treatment',
   thumbUrl: 'images/blog/post_6.jpeg',
   date: 'March 2',
   btnText: 'Learn More',
-  href: '/blog/blog-details',
+  href: '/blog/blog6',
   socialShare: true,
 },
   
