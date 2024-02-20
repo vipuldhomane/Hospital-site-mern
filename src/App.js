@@ -20,6 +20,7 @@ import Blog3 from "./components/Pages/Blog3";
 import Blog4 from "./components/Pages/Blog4";
 import Blog5 from "./components/Pages/Blog5";
 import Blog6 from "./components/Pages/Blog6";
+import PricingPlan from "./components/Pages/PricingPlan";
 
 function App() {
   const { pathname } = useLocation();
@@ -33,13 +34,14 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="blog" element={<Blog />} />
-       
+
         <Route path="blog/blog1" element={<Blog1 />} />
         <Route path="blog/blog2" element={<Blog2 />} />
         <Route path="blog/blog3" element={<Blog3 />} />
         <Route path="blog/blog4" element={<Blog4 />} />
         <Route path="blog/blog5" element={<Blog5 />} />
         <Route path="blog/blog6" element={<Blog6 />} />
+        <Route path="plans" element={<PricingPlan />} />
 
         <Route path="blog/:blogId" element={<BlogDetails />} />
 

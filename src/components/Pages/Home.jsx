@@ -57,6 +57,7 @@ const brandData = [
   { imgUrl: "images/brand_7.png", imgAlt: "Brand" },
   { imgUrl: "images/brand_8.png", imgAlt: "Brand" },
 ];
+
 const faqData = [
   {
     title: "Is hospital open 24*7 ?",
@@ -70,16 +71,15 @@ const faqData = [
   },
   {
     title: "Do you accept insurance?",
-    content:
-      "Yes we accept wide range of health insurance ",
+    content: "Yes we accept wide range of health insurance ",
   },
   {
     title: "What should I bring to my appointment?",
     content:
       "When preparing for your appointment at our multispeciality hospital, it's essential to carry Photo ID,Insurance Information,Medical Records,List of Medications",
   },
-  
 ];
+
 const blogData = [
   {
     title: "The Benefits of Mindfulness Meditation for Stress and Anxiety",
@@ -106,6 +106,7 @@ const blogData = [
     socialShare: true,
   },
 ];
+
 const awardData = [
   {
     title: "Malcolm Baldrige National Quality Award",
@@ -173,16 +174,15 @@ const departmentData = [
     iconUrl: "images/home_1/department_icon_6.svg",
     href: "/departments/department-details",
   },
-  
 ];
-// Edit here for contact details and services 
+// Edit here for contact details and services
 const infoList = [
   {
     title: "Hotline",
     subTitle: "+91 9730014161",
     iconUrl: "/images/contact/icon_1.svg",
   },
-  
+
   {
     title: "Location",
     subTitle: "Shatabdi Sq, Manewada Ring Road, Nagpur",
@@ -250,9 +250,9 @@ export default function Home() {
 
       {/* End Departments Section */}
       {/* Start Award Section */}
-      <Section topMd={185} topLg={140} topXl={100}>
+      {/* <Section topMd={185} topLg={140} topXl={100}>
         <AwardSection sectionTitle="Awards" data={awardData} />
-      </Section>
+      </Section> */}
       {/* End Award Section */}
 
       {/* Start Testimonial */}
@@ -301,7 +301,7 @@ export default function Home() {
         />
       </Section> */}
       {/* End Appointment Section */}
-      
+
       {/* Start FAQ Section */}
       <Section topMd={190} topLg={145} topXl={105}>
         <FaqSection
