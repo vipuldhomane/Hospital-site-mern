@@ -7,131 +7,39 @@ import FaqSectionStyle4 from "../Section/FaqSection/FaqSectionStyle4";
 import BannerSectionStyle10 from "../Section/BannerSection/BannerSectionStyle10";
 const pricingData = [
   {
-    title: "Family Health Plan",
+    title: "Diabetic Health Check-up",
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-    price: "$249",
-    period: "/month",
-    featureList: [
-      "Whole Family Coverage",
-      "Reduced Vaccination Costs",
-      "24/7 Medical Advice",
-    ],
-    btnText: "Get Started",
-    btnUrl: "/contact",
-    popular: false,
   },
   {
-    title: "Wellness Plan",
-    subTitle:
-      "Comprehensive healthcare tailored to your needs. Experience unlimited care and exclusive access to wellness events.",
-    price: "$99",
-    period: "/month",
-    featureList: [
-      "Unlimited Check-ups",
-      "Discounts on Treatments",
-      "Annual Health Assessment",
-      "Priority Scheduling",
-      "Wellness Workshops",
-    ],
-    btnText: "Get Started",
-    btnUrl: "/contact",
-    popular: true,
-  },
-  {
-    title: "Senior Wellness Plan",
+    title: "Well Women Health Check- up",
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-    price: "$149",
-    period: "/month",
-    featureList: [
-      "Senior-Specific Care",
-      "Geriatric Assessments",
-      "Fall Prevention Programs",
-      "Medication Discounts",
-    ],
-    btnText: "Get Started",
-    btnUrl: "/contact",
-    popular: false,
   },
   {
-    title: "Dental Health Plan",
+    title: "Gastroenterology Basic Health Check-up",
     subTitle:
-      "Smile with confidence. Enjoy regular dental check-ups, emergency coverage, and exclusive discounts on dental procedures.",
-    price: "$79",
-    period: "/month",
-    featureList: [
-      "Dental Check-ups",
-      "Procedure Discounts",
-      "Emergency Coverage",
-      "Oral Health Advice",
-    ],
-    btnText: "Get Started",
-    btnUrl: "/contact",
-    popular: false,
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
   {
-    title: `Women's Health Plan`,
-    subTitle: `Comprehensive women's health services. Receive expert gynecological care, family planning support, and prenatal/postnatal.`,
-    price: "$169",
-    period: "/month",
-    featureList: [
-      `Women's Health Services`,
-      "Gynecological Care",
-      "Fall Prevention Programs",
-      "Family Planning",
-      "Prenatal & Postnatal Support",
-    ],
-    btnText: "Get Started",
-    btnUrl: "/contact",
-    popular: false,
-  },
-  {
-    title: "Sports & Fitness Plan",
+    title: "Cardiac Health Check-up",
     subTitle:
-      "Optimized for athletes. Access sports injury assessments, physiotherapy, and expert advice for peak performance and recovery.",
-    price: "$119",
-    period: "/month",
-    featureList: [
-      "Sports Injury Assessments",
-      "Physiotherapy Sessions",
-      "Sports Medicine Experts",
-      "Fitness Support",
-    ],
-    btnText: "Get Started",
-    btnUrl: "/contact",
-    popular: false,
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+  },
+  {
+    title: "Complete Health Check-up",
+    subTitle:
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+  },
+  {
+    title: "Routine Check-up",
+    subTitle:
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
 ];
-const faqData = [
-  {
-    title: "What services does ProHealth offer?",
-    content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
-  },
-  {
-    title: "How do I schedule an appointment with ProHealth?",
-    content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
-  },
-  {
-    title: "Do you accept insurance?",
-    content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
-  },
-  {
-    title: "What should I bring to my appointment?",
-    content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
-  },
-  {
-    title: "How do I request a prescription refill?",
-    content:
-      "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesent voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui.",
-  },
-];
+
 export default function PricingPlan() {
-  pageTitle("Pricing Plan");
+  pageTitle("Health Plans");
   return (
     <>
       <BannerSectionStyle3

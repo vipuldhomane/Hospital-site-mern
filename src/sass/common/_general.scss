@@ -175,7 +175,7 @@
 }
 
 .cs_semibold {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .cs_bold {
@@ -275,6 +275,10 @@ hr {
 }
 .cs_accent_bg {
   background-color: $accent;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cs_gray_bg_1 {
   background-color: rgba(210, 234, 239, 0.2);
