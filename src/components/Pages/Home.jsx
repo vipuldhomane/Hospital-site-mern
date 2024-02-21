@@ -36,24 +36,24 @@ const galleryData = [
 ];
 // Feature list Data
 const featureListData = [
-  {
-    iconSrc: "/images/home_1/compassion.svg",
-    title: "Compassion",
-    subTitle:
-      "At Taywade Multispeciality Hospital, We acknowledge the significance of compassion in the healing process and approach healthcare with respect and understanding. We treat each patient with compassion, decency, and respect to lessen pain and offer consolation during illness.",
-  },
+  // {
+  //   iconSrc: "/images/home_1/compassion.svg",
+  //   title: "Compassion",
+  //   subTitle:
+  //     "At Taywade Multispeciality Hospital, We acknowledge the significance of compassion in the healing process and approach healthcare with respect and understanding. We treat each patient with compassion, decency, and respect to lessen pain and offer consolation during illness.",
+  // },
   {
     iconSrc: "/images/home_1/excellence.svg",
     title: "Excellence",
     subTitle:
       " From clinical treatment to customer service, we are dedicated to excellence in every business facet. To provide the greatest results for our patients, our team of healthcare professionals respects the highest quality standards and always looks for ways to innovate and improve.",
   },
-  {
-    iconSrc: "/images/home_1/integrity.svg",
-    title: "Integrity",
-    subTitle: `Our relationships with patients, coworkers, and the community are built on integrity. Our commitment to integrity in every choice and action has allowed us to gain the trust and confidence of those we serve. We conduct ourselves with honesty, transparency, and ethical integrity.
-    `,
-  },
+  // {
+  //   iconSrc: "/images/home_1/integrity.svg",
+  //   title: "Integrity",
+  //   subTitle: `Our relationships with patients, coworkers, and the community are built on integrity. Our commitment to integrity in every choice and action has allowed us to gain the trust and confidence of those we serve. We conduct ourselves with honesty, transparency, and ethical integrity.
+  //   `,
+  // },
   {
     iconSrc: "/images/home_1/respect.svg",
     title: "Innovation",
@@ -250,7 +250,14 @@ export default function Home() {
         btnUrl="/appointments"
       />
       {/* Start Facilities Section   */}
-      <Section bottomMd={200} bottomLg={150} bottomXl={110}>
+      <Section
+        topMd={100}
+        topLg={100}
+        topXl={100}
+        bottomMd={200}
+        bottomLg={150}
+        bottomXl={110}
+      >
         <AwardSectionStyle2
           sectionTitle="State of the Art Facilities"
           sectionTitleUp="Facilities"
