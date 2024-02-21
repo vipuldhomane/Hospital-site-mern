@@ -178,7 +178,7 @@ const departmentData = [
 // Edit here for contact details and services
 const infoList = [
   {
-    title: "Hotline",
+    title: "Contact Number",
     subTitle: "+91 9730014161",
     iconUrl: "/images/contact/icon_1.svg",
   },
