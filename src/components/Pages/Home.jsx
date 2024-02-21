@@ -12,7 +12,28 @@ import FaqSection from "../Section/FaqSection";
 import AwardSection from "../Section/AwardSection";
 import DepartmentSection from "../Section/DepartmentSection";
 import { pageTitle } from "../../helpers/PageTitle";
-
+import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
+import Slider from "react-slick";
+var settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  centerMode: true,
+};
+const galleryData = [
+  { imgUrl: "/images/carausalImg/img1.jpg" },
+  { imgUrl: "/images/carausalImg/img2.jpg" },
+  { imgUrl: "/images/carausalImg/img3.jpg" },
+  { imgUrl: "/images/carausalImg/img4.jpg" },
+  { imgUrl: "/images/carausalImg/img5.jpg" },
+  { imgUrl: "/images/carausalImg/img6.jpg" },
+  { imgUrl: "/images/carausalImg/img7.jpg" },
+  { imgUrl: "/images/carausalImg/img8.jpg" },
+];
 // Feature list Data
 const featureListData = [
   {
@@ -109,28 +130,36 @@ const blogData = [
 
 const awardData = [
   {
-    title: "Malcolm Baldrige National Quality Award",
-    subTitle:
-      "This award recognizes healthcare organizations that have demonstrated excellence in leadership, strategic planning, customer and employee satisfaction, and operational efficiency.",
-    iconUrl: "images/icons/award.svg",
+    iconUrl: "/images/icons/award.svg",
+    title: "100 Bed Hospital",
   },
   {
-    title: "HIMSS Davies Award",
-    subTitle:
-      "This award recognizes healthcare organizations that have used health information technology to improve patient outcomes and reduce costs.",
-    iconUrl: "images/icons/award.svg",
+    iconUrl: "/images/icons/award.svg",
+    title: "3 State of Art Modular Operation Theatres",
   },
   {
-    title: "Healthgrades National’s Best Hospital",
-    subTitle:
-      "This recognition is given to hospitals that have achieved high ratings for clinical quality and patient safety across multiple specialties and procedures.",
-    iconUrl: "images/icons/award.svg",
+    iconUrl: "/images/icons/award.svg",
+    title: "20 Bed ICU",
   },
   {
-    title: "Joint Commission Gold Seal of Approval",
-    subTitle:
-      "This recognition is given to hospitals that have met rigorous standards for patient safety and quality of care.",
-    iconUrl: "images/icons/award.svg",
+    iconUrl: "/images/icons/award.svg",
+    title: "2 Minor Operation Theatres",
+  },
+  {
+    iconUrl: "/images/icons/award.svg",
+    title: "Diagnostic Centre with Latest Equipment",
+  },
+  {
+    iconUrl: "/images/icons/award.svg",
+    title: "Advanced Pathology lab",
+  },
+  {
+    iconUrl: "/images/icons/award.svg",
+    title: "24 hrs Casualty and Pharmacy",
+  },
+  {
+    iconUrl: "/images/icons/award.svg",
+    title: "Physiotherapy Setup",
   },
 ];
 const departmentData = [
@@ -179,13 +208,20 @@ const departmentData = [
 const infoList = [
   {
     title: "Contact Number",
-    subTitle: "+91 9730014161",
+    subTitle: "+91 9422334702",
+    iconUrl: "/images/contact/icon_1.svg",
+  },
+  {
+    title: "LandLine",
+    subTitle: "0712-2992211",
+    ph1: "  0712-2992210",
     iconUrl: "/images/contact/icon_1.svg",
   },
 
   {
     title: "Location",
-    subTitle: "Shatabdi Sq, Manewada Ring Road, Nagpur",
+    subTitle: "Shatabdi Square,",
+    sub_subTitle: "Manewada Ring Road, Nagpur",
     iconUrl: "/images/icons/pin.svg",
   },
 ];
@@ -213,7 +249,44 @@ export default function Home() {
         btnText="Book Now"
         btnUrl="/appointments"
       />
+      {/* Start Facilities Section   */}
+      <Section bottomMd={200} bottomLg={150} bottomXl={110}>
+        <AwardSectionStyle2
+          sectionTitle="State of the Art Facilities"
+          sectionTitleUp="Facilities"
+          sectionSubTitle=""
+          data={awardData}
+        />
+      </Section>
+      {/* End Facilities Section   */}
+      {/* Sample Carausal */}
 
+      <Section bottomMd={185} bottomLg={140} bottomXl={100}>
+        <Slider {...settings} className="cs_carausel">
+          {galleryData.map((image, index) => {
+            return (
+              <img
+                src={image.imgUrl}
+                alt="hospital"
+                key={index}
+                className="cs_carau_img "
+              />
+            );
+          })}
+        </Slider>
+      </Section>
+      {/* Sample Carausal */}
+      {/* Start About Section */}
+      <Section>
+        <AboutSection
+          imgUrl="/images/home_1/about.png"
+          spiningImgUrl="/images/home_1/about_mini.svg"
+          title="About Us"
+          subTitle="Taywade Multispeciality Hospital"
+          featureList={aboutFeatureList}
+        />
+      </Section>
+      {/* End About Section */}
       {/* Start Feature Section */}
       <Section
         topMd={185}
@@ -226,18 +299,6 @@ export default function Home() {
         <FeaturesSection sectionTitle="Our Values" data={featureListData} />
       </Section>
       {/* End Feature Section */}
-
-      {/* Start About Section */}
-      <Section>
-        <AboutSection
-          imgUrl="/images/home_1/about.png"
-          spiningImgUrl="/images/home_1/about_mini.svg"
-          title="About Us"
-          subTitle="Taywade Multispeciality Hospital"
-          featureList={aboutFeatureList}
-        />
-      </Section>
-      {/* End About Section */}
 
       {/* Start Departments Section */}
       <Section topMd={185} topLg={150} topXl={110}>

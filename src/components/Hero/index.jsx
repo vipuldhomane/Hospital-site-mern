@@ -47,11 +47,16 @@ export default function Hero({
                     <p className="cs_hero_info_subtitle cs_fs_20">
                       {item.subTitle}
                     </p>
+                    <p className="cs_hero_info_subtitle cs_fs_20">
+                      {item.sub_subTitle}
+                    </p>
+                    <p className="cs_hero_info_subtitle cs_fs_20">{item.ph1}</p>
+                    <p className="cs_hero_info_subtitle cs_fs_20">{item.ph2}</p>
                   </div>
                 </div>
               </div>
             ))}
-            <div className="cs_hero_info_col">
+            {/* <div className="cs_hero_info_col">
               <Link to={btnUrl} className="cs_btn cs_style_1">
                 <span>Visit Now</span>
                 <i>
@@ -59,7 +64,7 @@ export default function Hero({
                   <img src="/images/icons/arrow_white.svg" alt="Icon" />
                 </i>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
