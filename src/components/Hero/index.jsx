@@ -56,15 +56,19 @@ export default function Hero({
                 </div>
               </div>
             ))}
-            {/* <div className="cs_hero_info_col">
-              <Link to={btnUrl} className="cs_btn cs_style_1">
-                <span>Visit Now</span>
-                <i>
-                  <img src="/images/icons/arrow_white.svg" alt="Icon" />
-                  <img src="/images/icons/arrow_white.svg" alt="Icon" />
-                </i>
-              </Link>
-            </div> */}
+            <div className="cs_hero_info_col">
+              <div className="cs_btn cs_style_1">
+                <span>
+                  <img
+                    src="/images/contact/icon_1.svg"
+                    alt="Icon"
+                    style={{ height: "25px", margin: "auto" }}
+                  />
+
+                  <a href="tel:9422334702">Click & Book Appointment </a>
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
