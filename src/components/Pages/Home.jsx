@@ -281,8 +281,8 @@ export default function Home() {
       />
       {/* Start Facilities Section   */}
       <Section
-        topMd={100}
-        topLg={100}
+        topMd={185}
+        topLg={140}
         topXl={100}
         bottomMd={200}
         bottomLg={150}

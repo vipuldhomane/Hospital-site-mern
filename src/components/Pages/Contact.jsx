@@ -1,17 +1,17 @@
-import React from 'react';
-import BannerSectionStyle5 from '../Section/BannerSection/BannerSectionStyle5';
-import ContactForm from '../ContactForm';
-import Section from '../Section';
-import ContactInfoSection from '../Section/ContactInfoSection';
-import { pageTitle } from '../../helpers/PageTitle';
+import React from "react";
+import BannerSectionStyle5 from "../Section/BannerSection/BannerSectionStyle5";
+import ContactForm from "../ContactForm";
+import Section from "../Section";
+import ContactInfoSection from "../Section/ContactInfoSection";
+import { pageTitle } from "../../helpers/PageTitle";
 
 export default function Contact() {
-  pageTitle('Contact');
+  pageTitle("Contact");
   return (
     <>
       <BannerSectionStyle5
         bgUrl="/images/contact/banner_bg.svg"
-        imgUrl="/images/contact/banner_img.png"
+        imgUrl="/images/mainUpload/contact.jpg"
         title="Contact Us"
         subTitle="Kindly reach us to get the fastest response and treatment"
       />

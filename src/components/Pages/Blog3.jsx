@@ -40,7 +40,7 @@ const tags = [
 //     href: "/blog/blog-details",
 //   },
 // ];
-const relatedBlog = relatedBlogData
+const relatedBlog = relatedBlogData;
 
 export default function Blog3() {
   pageTitle("Blog Details");
@@ -80,7 +80,7 @@ export default function Blog3() {
         </div>
         <Spacing md="55" />
         <img
-          src="/images/blog/blog_details_1.jpeg"
+          src="/images/mainUpload/BlogImg/pediatric.jpg"
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -164,7 +164,7 @@ export default function Blog3() {
                 medical issues, consult with experts when necessary, and support
                 and counsel families during therapy.
               </p>
-              
+
               <h2>In summary</h2>
               <p>
                 It is crucial for us as parents and other caregivers to

@@ -40,7 +40,7 @@ const tags = [
 //     href: "/blog/blog-details",
 //   },
 // ];
-const relatedBlog = relatedBlogData
+const relatedBlog = relatedBlogData;
 export default function Blog5() {
   pageTitle("Blog Details");
   return (
@@ -59,7 +59,7 @@ export default function Blog5() {
               ))} */}
             </div>
             <div className="cs_blog_details_date">
-              March 12, 2023 | Debri Bianca
+              Taiwade Multispecialty Hospitals
             </div>
           </div>
           {/* <div className="cs_social_links_wrap">
@@ -79,7 +79,7 @@ export default function Blog5() {
         </div>
         <Spacing md="55" />
         <img
-          src="/images/blog/blog_details_1.jpeg"
+          src="/images/mainUpload/BlogImg/gyno.jpg"
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -102,70 +102,102 @@ export default function Blog5() {
                 <li>
                   <b>Menstrual cycle irregularities:</b>
                   <br />
-                   such as missing periods, severe bleeding, or irregular timing, might be an indication of thyroid problems, polycystic ovarian syndrome (PCOS), hormonal imbalances, or other underlying medical conditions. 
-
+                  such as missing periods, severe bleeding, or irregular timing,
+                  might be an indication of thyroid problems, polycystic ovarian
+                  syndrome (PCOS), hormonal imbalances, or other underlying
+                  medical conditions.
                 </li>
                 <li>
                   <b> Pelvic Pain:</b> <br />
-                  Pelvic pain can be confined to the lower back, pelvis, or abdomen and can vary in intensity from little discomfort to excruciating cramps. Numerous gynaecological disorders, such as endometriosis, ovarian cysts, fibroids, or pelvic inflammatory disease (PID), might be the cause of it.
-
+                  Pelvic pain can be confined to the lower back, pelvis, or
+                  abdomen and can vary in intensity from little discomfort to
+                  excruciating cramps. Numerous gynaecological disorders, such
+                  as endometriosis, ovarian cysts, fibroids, or pelvic
+                  inflammatory disease (PID), might be the cause of it.
                 </li>
                 <li>
                   <b>Abnormal Vaginal discharge:</b>
                   <br />
-                   Variations in vaginal discharge, such as peculiar colour, consistency, odour, or frequency, might be a sign of hormonal imbalances, STIs, or infections (such as bacterial vaginosis or yeast infections).
+                  Variations in vaginal discharge, such as peculiar colour,
+                  consistency, odour, or frequency, might be a sign of hormonal
+                  imbalances, STIs, or infections (such as bacterial vaginosis
+                  or yeast infections).
                 </li>
                 <li>
                   <b>Painful Intercourse:</b>
                   <br />
-                   Dyspareunia, or pain or discomfort during sex, can have psychological, emotional, or physical roots. It could be linked to diseases, including endometriosis, genital infections, pelvic floor dysfunction, or vaginismus. 
-
+                  Dyspareunia, or pain or discomfort during sex, can have
+                  psychological, emotional, or physical roots. It could be
+                  linked to diseases, including endometriosis, genital
+                  infections, pelvic floor dysfunction, or vaginismus.
                 </li>
                 <li>
-                  <b>Breast Changes:</b> <br />
-                   A healthcare professional should be seen if there are any changes to the appearance, texture, or sensitivity of the breasts, such as lumps, swelling, discharge from the nipples, or skin changes. Even while the majority of breast changes are benign, they can also be signs of diseases, including breast cancer, infections, or fibrocystic alterations.
-
+                  <b>Breast Changes:</b> <br />A healthcare professional should
+                  be seen if there are any changes to the appearance, texture,
+                  or sensitivity of the breasts, such as lumps, swelling,
+                  discharge from the nipples, or skin changes. Even while the
+                  majority of breast changes are benign, they can also be signs
+                  of diseases, including breast cancer, infections, or
+                  fibrocystic alterations.
                 </li>
-                
               </ol>
 
-              <h2>
-              Common Gynecological Conditions and Treatments
-
-              </h2>
+              <h2>Common Gynecological Conditions and Treatments</h2>
 
               <ul>
                 <li>
                   <h3>Endometriosis:</h3>
-                   The aberrant proliferation of endometrial tissue outside the uterus is the hallmark of this chronic illness, which can cause infertility, pelvic pain, and other symptoms. For infertility, treatment options include hormone therapy, surgical removal of endometrial implants, pain management, and assisted reproductive technologies (ART). 
-
+                  The aberrant proliferation of endometrial tissue outside the
+                  uterus is the hallmark of this chronic illness, which can
+                  cause infertility, pelvic pain, and other symptoms. For
+                  infertility, treatment options include hormone therapy,
+                  surgical removal of endometrial implants, pain management, and
+                  assisted reproductive technologies (ART).
                 </li>
                 <li>
                   <h3>PCOS: </h3>
-                   stands for polycystic ovarian syndrome, an endocrine illness marked by irregular menstrual cycles, ovarian cysts, and hormone abnormalities. Hormonal therapy (birth control pills), insulin-sensitizing drugs, diet and exercise changes, and fertility therapies are among possible therapeutic options.
-
+                  stands for polycystic ovarian syndrome, an endocrine illness
+                  marked by irregular menstrual cycles, ovarian cysts, and
+                  hormone abnormalities. Hormonal therapy (birth control pills),
+                  insulin-sensitizing drugs, diet and exercise changes, and
+                  fertility therapies are among possible therapeutic options.
                 </li>
                 <li>
-                  <h3> Cervical Dysplasia: </h3>
-                  A human papillomavirus (HPV) infection is frequently the source of aberrant alterations in the cervix's cells. Treatment options include cryotherapy, loop electrosurgical excision technique (LEEP), colposcopy with biopsy, and surgical removal of aberrant tissue. Treatment may also involve monitoring for progression. 
-
+                  <h3> Cervical Dysplasia: </h3>A human papillomavirus (HPV)
+                  infection is frequently the source of aberrant alterations in
+                  the cervix's cells. Treatment options include cryotherapy,
+                  loop electrosurgical excision technique (LEEP), colposcopy
+                  with biopsy, and surgical removal of aberrant tissue.
+                  Treatment may also involve monitoring for progression.
                 </li>
                 <li>
                   <h3> Pelvic Inflammatory Disease (PID): </h3>
-                   PID is a bacterial illness of the female reproductive system that is frequently brought on by STIs like gonorrhoea or chlamydia. Antibiotics are used in treatment to get rid of the infection and stop side effects, including infertility or persistent pelvic pain.
-
+                  PID is a bacterial illness of the female reproductive system
+                  that is frequently brought on by STIs like gonorrhoea or
+                  chlamydia. Antibiotics are used in treatment to get rid of the
+                  infection and stop side effects, including infertility or
+                  persistent pelvic pain.
                 </li>
                 <li>
                   <h3> Handling the Menopause: </h3>
-                   Menopause signifies the end of the menstrual cycle and the entry into the post-reproductive phase of life. Hormone replacement therapy (HRT), lifestyle changes, symptom management (e.g., vaginal dryness, hot flashes), and preventative care (e.g., bone density screening) may all be part of the treatment.
-
-
+                  Menopause signifies the end of the menstrual cycle and the
+                  entry into the post-reproductive phase of life. Hormone
+                  replacement therapy (HRT), lifestyle changes, symptom
+                  management (e.g., vaginal dryness, hot flashes), and
+                  preventative care (e.g., bone density screening) may all be
+                  part of the treatment.
                 </li>
               </ul>
               <h2>Conclusion</h2>
               <p>
-              Gynaecology care is crucial for addressing the special health needs of women, encouraging reproductive wellness, and enabling people to prioritise their health and well-being. Women may protect their reproductive health and lead active, meaningful lives by being aware of gynaecological symptoms, obtaining early treatment, and adopting preventive measures. Remember that your body is your most valuable possession; take good care of it with the assistance and knowledge of gynaecological specialists.
-
+                Gynaecology care is crucial for addressing the special health
+                needs of women, encouraging reproductive wellness, and enabling
+                people to prioritise their health and well-being. Women may
+                protect their reproductive health and lead active, meaningful
+                lives by being aware of gynaecological symptoms, obtaining early
+                treatment, and adopting preventive measures. Remember that your
+                body is your most valuable possession; take good care of it with
+                the assistance and knowledge of gynaecological specialists.
               </p>
             </div>
             <Spacing md="85" />

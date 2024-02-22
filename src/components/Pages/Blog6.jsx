@@ -8,7 +8,7 @@ import Post from "../Post";
 import Sidebar from "../Sidebar";
 
 import { pageTitle } from "../../helpers/PageTitle";
-import {  relatedBlogData } from "./relatedBlogData";
+import { relatedBlogData } from "./relatedBlogData";
 const tags = [
   { tag: "Emergency", href: "/blog/blog-details" },
   { tag: "Pediatric", href: "/blog/blog-details" },
@@ -16,7 +16,7 @@ const tags = [
   { tag: "Psychiatry", href: "/blog/blog-details" },
   { tag: "Others", href: "/blog/blog-details" },
 ];
-const relatedBlog = relatedBlogData
+const relatedBlog = relatedBlogData;
 
 export default function Blog6() {
   pageTitle("Blog Details");
@@ -39,27 +39,13 @@ export default function Blog6() {
               ))} */}
             </div>
             <div className="cs_blog_details_date">
-              March 12, 2023 | Debri Bianca
+              Taiwade Multispecialty Hospitals
             </div>
           </div>
-          {/* <div className="cs_social_links_wrap">
-            <h2>Share:</h2>
-            <div className="cs_social_links">
-              <Link to="/">
-                <Icon icon="fa-brands:facebook-f" />
-              </Link>
-              <Link to="/">
-                <Icon icon="fa-brands:linkedin-in" />
-              </Link>
-              <Link to="/">
-                <Icon icon="fa-brands:twitter" />
-              </Link>
-            </div>
-          </div> */}
         </div>
         <Spacing md="55" />
         <img
-          src="/images/blog/blog_details_1.jpeg"
+          src="/images/mainUpload/BlogImg/nuero.jpg"
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />

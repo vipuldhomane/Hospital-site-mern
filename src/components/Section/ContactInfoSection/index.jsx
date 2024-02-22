@@ -1,6 +1,6 @@
-import React from 'react';
-import IconBoxStyle11 from '../../IconBox/IconBoxStyle11';
-import Spacing from '../../Spacing';
+import React from "react";
+import IconBoxStyle11 from "../../IconBox/IconBoxStyle11";
+import Spacing from "../../Spacing";
 
 export default function ContactInfoSection({ sectionTitle }) {
   return (
@@ -11,7 +11,7 @@ export default function ContactInfoSection({ sectionTitle }) {
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Phone"
-            subTitle="+91 9730014161"
+            subTitle="+91 9422334702"
             iconSrc="/images/contact/icon_1.svg"
           />
         </div>

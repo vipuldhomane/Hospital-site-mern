@@ -16,32 +16,7 @@ const tags = [
   { tag: "Psychiatry", href: "/blog/blog-details" },
   { tag: "Others", href: "/blog/blog-details" },
 ];
-const relatedBlog = relatedBlogData
-// const relatedBlog = [
-//   {
-//     title:
-//       "The Importance of Mental Health: Understanding and Managing Anxiety Disorders",
-//     thumbUrl: "/images/blog/post_1.jpeg",
-//     date: "March 12",
-//     btnText: "Learn More",
-//     href: "/blog/blog-details",
-//   },
-//   {
-//     title: `A Parent's Guide to Childhood Vaccinations: What You Need to Know`,
-//     thumbUrl: "/images/blog/post_2.jpeg",
-//     date: "March 11",
-//     btnText: "Learn More",
-//     href: "/blog/blog-details",
-//   },
-//   {
-//     title: "Preventing Heart Disease: Tips for a Heart-Healthy Lifestyle",
-//     thumbUrl: "/images/blog/post_3.jpeg",
-//     date: "March 9",
-//     btnText: "Learn More",
-//     href: "/blog/blog-details",
-//   },
-// ];
-
+const relatedBlog = relatedBlogData;
 
 export default function Blog2() {
   pageTitle("Blog Details");
@@ -61,15 +36,13 @@ export default function Blog2() {
               ))} */}
             </div>
             <div className="cs_blog_details_date">
-              
-Taiwade Multispecialty Hospitals
+              Taiwade Multispecialty Hospitals
             </div>
           </div>
-          
         </div>
         <Spacing md="55" />
         <img
-          src="/images/blog/blog_details_1.jpeg"
+          src="/images/mainUpload/BlogImg/ortho.jpg"
           alt="Blog Details"
           className="w-100 cs_radius_20"
         />
@@ -138,65 +111,61 @@ Taiwade Multispecialty Hospitals
               <ul>
                 <li>
                   <h3>Fractures :</h3>
-                   (broken bones) are a frequent orthopedic ailment
-                  caused by trauma or repetitive stress. Treatment usually
-                  consists of immobilization with casts or splints, followed by
+                  (broken bones) are a frequent orthopedic ailment caused by
+                  trauma or repetitive stress. Treatment usually consists of
+                  immobilization with casts or splints, followed by
                   rehabilitation to regain strength and mobility. Severe
                   fractures may necessitate surgical intervention, including
-                  internal or external fixation.  
+                  internal or external fixation.
                 </li>
                 <li>
                   <h3>Arthritis :</h3>
-                   is a class of
-                  inflammatory joint illnesses distinguished by pain, swelling,
-                  and stiffness. Treatment is intended to alleviate symptoms,
-                  reduce disease progression, and enhance joint function.
-                  Medication, physical therapy, joint injections, and, in
-                  certain situations, joint replacement surgery are all viable
-                  options.
+                  is a class of inflammatory joint illnesses distinguished by
+                  pain, swelling, and stiffness. Treatment is intended to
+                  alleviate symptoms, reduce disease progression, and enhance
+                  joint function. Medication, physical therapy, joint
+                  injections, and, in certain situations, joint replacement
+                  surgery are all viable options.
                 </li>
                 <li>
                   <h3>Sprains and strains:</h3>
-                   Sprains occur when ligaments
-                  stretch or rip, whereas strains occur when muscles or tendons
-                  stretch or tear. Rest, ice, compression, and elevation (RICE)
-                  are common treatments, followed by physical therapy to aid
-                  healing and prevent recurrence.
+                  Sprains occur when ligaments stretch or rip, whereas strains
+                  occur when muscles or tendons stretch or tear. Rest, ice,
+                  compression, and elevation (RICE) are common treatments,
+                  followed by physical therapy to aid healing and prevent
+                  recurrence.
                 </li>
                 <li>
                   <h3>Back pain : </h3>
-                  is a frequent
-                  orthopedic complaint that might be caused by muscle strain,
-                  disc herniation, spinal stenosis, or another underlying
-                  disease. Medication, physical therapy, chiropractic care, and
-                  lifestyle changes may all be used as treatment options. In
-                  severe cases, surgery may be required to relieve pressure on
-                  the spinal nerves or stabilize the spine. 
+                  is a frequent orthopedic complaint that might be caused by
+                  muscle strain, disc herniation, spinal stenosis, or another
+                  underlying disease. Medication, physical therapy, chiropractic
+                  care, and lifestyle changes may all be used as treatment
+                  options. In severe cases, surgery may be required to relieve
+                  pressure on the spinal nerves or stabilize the spine.
                 </li>
                 <li>
                   <h3>Tendonitis : </h3>
-                  is the
-                  tendon's inflammation, commonly caused by overuse or repeated
-                  activity. Treatments to relieve pain and inflammation include
-                  rest, activity moderation, ice, anti-inflammatory medicine,
-                  and physical therapy. In some circumstances, corticosteroid
-                  injections may be prescribed to alleviate symptoms. 
+                  is the tendon's inflammation, commonly caused by overuse or
+                  repeated activity. Treatments to relieve pain and inflammation
+                  include rest, activity moderation, ice, anti-inflammatory
+                  medicine, and physical therapy. In some circumstances,
+                  corticosteroid injections may be prescribed to alleviate
+                  symptoms.
                 </li>
               </ul>
               <h2>Conclusion</h2>
               <p>
-              
-                  Orthopaedic issues can substantially impact daily living,
-                  influencing mobility, comfort, and overall well-being.
-                  Recognizing the symptoms of orthopaedic disorders and
-                  obtaining immediate medical assistance are critical stages in
-                  achieving the best results. Many orthopaedic disorders can be
-                  successfully controlled with early diagnosis and appropriate
-                  therapy, allowing patients to regain function, relieve pain,
-                  and live an active lifestyle. If you are experiencing
-                  orthopaedic issues, don't hesitate to meet with a certified
-                  orthopaedic doctor to discuss your treatment choices and start
-                  your recovery.
+                Orthopaedic issues can substantially impact daily living,
+                influencing mobility, comfort, and overall well-being.
+                Recognizing the symptoms of orthopaedic disorders and obtaining
+                immediate medical assistance are critical stages in achieving
+                the best results. Many orthopaedic disorders can be successfully
+                controlled with early diagnosis and appropriate therapy,
+                allowing patients to regain function, relieve pain, and live an
+                active lifestyle. If you are experiencing orthopaedic issues,
+                don't hesitate to meet with a certified orthopaedic doctor to
+                discuss your treatment choices and start your recovery.
               </p>
             </div>
             <Spacing md="85" />
