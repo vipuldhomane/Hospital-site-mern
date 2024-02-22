@@ -20,7 +20,7 @@ export default function AwardSectionStyle2({
       <Spacing md="72" lg="50" />
       <div className="row cs_gap_y_24 ">
         {data?.map((item, index) => (
-          <div className="col-xxl-3 col-md-6" key={index}>
+          <div className="col-xxl-3 col-md-6 col-lg-4" key={index}>
             <IconBoxStyle5 {...item} />
           </div>
         ))}
