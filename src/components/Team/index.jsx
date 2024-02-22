@@ -1,6 +1,6 @@
-import { Icon } from '@iconify/react';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Icon } from "@iconify/react";
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Team({
   imgUrl,
@@ -23,12 +23,17 @@ export default function Team({
           <p className="cs_member_description">{description}</p>
         </div>
         <div>
-          <div className="cs_social_links">
-            {/* {social?.map((item, index) => (
-              <Link to={item.href} key={index}>
-                <Icon icon={item.icon} />
-              </Link>
-            ))} */}
+          <div className="cs_btn cs_style_1 m-3 cs_stickybutton">
+            <span>
+              <a
+                href="https://wa.me/919422334702"
+                aria-label="Chat on WhatsApp"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Book on WhatsApp
+              </a>
+            </span>
           </div>
         </div>
       </div>

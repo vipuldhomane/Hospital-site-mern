@@ -35,9 +35,9 @@ export default function Footer() {
             alt="Logo Icon"
             className="cs_footer_brand_icon"
           /> */}
-          <h2 className="cs_footer_brand_text">Taywade</h2>
-          <h2 className="cs_footer_brand_text">MultiSpecialty</h2>
-          <h2 className="cs_footer_brand_text">Hospital</h2>
+          <h3 className="cs_heading_color">Taywade</h3>
+          <h3 className="cs_heading_color">MultiSpecialty</h3>
+          <h3 className="cs_heading_color">Hospital</h3>
         </div>
       </div>
       <div className="cs_footer_main">
@@ -49,16 +49,16 @@ export default function Footer() {
                 <ContactInfoWidget />
               </div>
             </div>
-            <div className="col-lg-2">
+            <div className="col-lg-2 mx-2">
               <div className="cs_footer_item">
                 <MenuWidget data={menuDataOne} />
               </div>
             </div>
-            <div className="col-lg-2">
+            {/* <div className="col-lg-2">
               <div className="cs_footer_item">
                 <MenuWidget data={menuDataTwo} />
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-4">
               <div className="cs_footer_item">
                 <Newsletter

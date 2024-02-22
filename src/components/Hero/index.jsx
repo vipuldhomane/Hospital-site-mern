@@ -33,7 +33,7 @@ export default function Hero({
             </p>
           </div> */}
 
-          <div className="cs_hero_info_wrap cs_shadow_1 cs_white_bg cs_radius_15">
+          <div className="cs_hero_info_wrap cs_shadow_1 cs_white_bg cs_radius_15 ">
             {infoList.map((item, index) => (
               <div className="cs_hero_info_col" key={index}>
                 <div className="cs_hero_info d-flex align-items-center">
@@ -59,13 +59,25 @@ export default function Hero({
             <div className="cs_hero_info_col">
               <div className="cs_btn cs_style_1">
                 <span>
-                  <img
+                  {/* <img
                     src="/images/contact/icon_1.svg"
                     alt="Icon"
                     style={{ height: "25px", margin: "auto" }}
-                  />
+                  /> */}
 
-                  <a href="tel:9422334702">Click & Book Appointment </a>
+                  <a href="tel:919422334702">Click & Book Appointment </a>
+                </span>
+              </div>
+              <div className="cs_btn cs_style_1 m-3 cs_stickybutton">
+                <span>
+                  <a
+                    href="https://wa.me/919422334702"
+                    aria-label="Chat on WhatsApp"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Book on WhatsApp
+                  </a>
                 </span>
               </div>
             </div>

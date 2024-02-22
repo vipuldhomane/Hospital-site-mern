@@ -197,7 +197,7 @@ export default function About() {
     <>
       <BannerSectionStyle3
         bgUrl="/images/about/banner_bg.svg"
-        imgUrl="/images/about/banner_img.png"
+        imgUrl="/images/mainUpload/taywadeBuild.png"
         title="Welcome to <br />Taywade MultiSpecialty Hospital"
         subTitle="Your Partner in Health and Wellness"
       />
@@ -209,7 +209,7 @@ export default function About() {
         />
       </Section>
       {/* Sample Carausal */}
-      <Section topMd={200} topLg={150} topXl={110}>
+      {/* <Section topMd={200} topLg={150} topXl={110}>
         <Slider {...settings} className="cs_carausel">
           {galleryData.map((image, index) => {
             return (
@@ -222,13 +222,13 @@ export default function About() {
             );
           })}
         </Slider>
-      </Section>
+      </Section> */}
       {/* Sample Carausal */}
 
       <Section topMd={175} topLg={125} topXl={85} bottomMd={100} bottomLg={110}>
         <FeaturesSectionStyle2
           sectionTitle="Why Choose Us"
-          imgUrl="images/about/why_choose_us.jpeg"
+          imgUrl="images/mainUpload/taywadeImg1.jpg"
           data={featureListData}
         />
       </Section>
@@ -238,7 +238,7 @@ export default function About() {
           data={funFactData}
         />
       </Section> */}
-      <Section topMd={190} topLg={145} topXl={105}>
+      {/* <Section topMd={190} topLg={145} topXl={105}>
         <TeamSection
           sectionTitle="Experts Doctor"
           sectionTitleUp="MEET OUR"
@@ -252,7 +252,7 @@ export default function About() {
           sectionTitleUp="HAVE A LOOK AT"
           data={galleryData}
         />
-      </Section>
+      </Section> */}
 
       {/* <Section className="cs_footer_margin_0">
         <BannerSectionStyle4

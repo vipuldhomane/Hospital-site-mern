@@ -8,6 +8,7 @@
     margin-top: 100px;
   }
 }
+
 .cs_carausel {
   display: flex;
   justify-content: center;
@@ -287,6 +288,9 @@ hr {
 }
 .cs_white_color {
   color: #fff;
+}
+.cs_black_color {
+  color: #080808;
 }
 .cs_white_bg {
   background-color: $white;

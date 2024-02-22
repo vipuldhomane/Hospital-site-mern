@@ -11,16 +11,7 @@ const pricingData = [
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
-  {
-    title: "Well Women Health Check- up",
-    subTitle:
-      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-  },
-  {
-    title: "Gastroenterology Basic Health Check-up",
-    subTitle:
-      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-  },
+
   {
     title: "Cardiac Health Check-up",
     subTitle:
@@ -44,7 +35,7 @@ export default function PricingPlan() {
     <>
       <BannerSectionStyle3
         bgUrl="/images/pricing_plan/banner_bg.svg"
-        imgUrl="/images/pricing_plan/banner_img.png"
+        imgUrl="/images/mainUpload/taywadeHealthPlan.jpg"
         title="Find the Right Plan <br>for You"
         subTitle="Explore Our Membership Options and Start Your Journey to Better Health"
         btnText="Get Starter"

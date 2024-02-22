@@ -14,6 +14,7 @@ import DepartmentSection from "../Section/DepartmentSection";
 import { pageTitle } from "../../helpers/PageTitle";
 import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 import Slider from "react-slick";
+import TeamSection from "../Section/TeamSection";
 var settings = {
   dots: true,
   infinite: true,
@@ -24,14 +25,14 @@ var settings = {
   autoplaySpeed: 3000,
 };
 const galleryData = [
-  { imgUrl: "/images/carausalImg/img1.jpg" },
-  { imgUrl: "/images/carausalImg/img2.jpg" },
-  { imgUrl: "/images/carausalImg/img3.jpg" },
-  { imgUrl: "/images/carausalImg/img4.jpg" },
-  { imgUrl: "/images/carausalImg/img5.jpg" },
-  { imgUrl: "/images/carausalImg/img6.jpg" },
-  { imgUrl: "/images/carausalImg/img7.jpg" },
-  { imgUrl: "/images/carausalImg/img8.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img1.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img2.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img3.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img4.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img5.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img6.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img7.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img8.jpg" },
 ];
 // Feature list Data
 const featureListData = [
@@ -198,7 +199,7 @@ const departmentData = [
     href: "/departments/department-details",
   },
   {
-    title: "Urology",
+    title: "Pathology",
     iconUrl: "images/home_1/department_icon_6.svg",
     href: "/departments/department-details",
   },
@@ -230,6 +231,36 @@ const aboutFeatureList = [
       "Taywade MultiSpecialty Hospital is a team of experienced medical professionals",
     featureListSubTitle:
       "At Taywade MultiSpecialty Hospital, we provide extensive medical treatments customized to meet your needs. We put your health and well-being first, with cutting-edge facilities and a committed team of professionals. Taywade Multispeciality Hospital offers excellent care that is delivered with compassion. Your dependable healthcare partner.",
+  },
+];
+const teamData = [
+  {
+    imgUrl: "images/mainUpload/docStock.jpg",
+    name: "Dr. Shounak Taywade",
+    designation: "Head Of Orthopaedics and Joint Replacement",
+    description:
+      "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement surgeries",
+  },
+  {
+    imgUrl: "images/mainUpload/docStock.jpg",
+    name: "Dr. Ankita Taywade",
+    designation: "Head Of Radiology Department",
+    description:
+      "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
+  },
+  {
+    imgUrl: "images/mainUpload/docStock.jpg",
+    name: "Dr.  Paras Zunke",
+    designation: "General medicine and Diabetologist",
+    description:
+      "Experienced Diabetologist and General Medicine specialist dedicated to providing comprehensive care and management for diabetes and general health concerns.",
+  },
+  {
+    imgUrl: "images/mainUpload/docStock.jpg",
+    name: "Dr. Anupama Zade",
+    designation: "Intensivist, CriticalCare Physician",
+    description:
+      "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
   },
 ];
 export default function Home() {
@@ -265,7 +296,8 @@ export default function Home() {
         />
       </Section>
       {/* End Facilities Section   */}
-      {/* Sample Carausal */}
+
+      {/* Sample Carousal */}
 
       <Section bottomMd={185} bottomLg={140} bottomXl={100}>
         <Slider {...settings} className="cs_carausel">
@@ -281,11 +313,12 @@ export default function Home() {
           })}
         </Slider>
       </Section>
-      {/* Sample Carausal */}
+      {/* Sample Carousal */}
+
       {/* Start About Section */}
       <Section>
         <AboutSection
-          imgUrl="/images/home_1/about.png"
+          imgUrl="/images/mainUpload/taywadeBuild.png"
           spiningImgUrl="/images/home_1/about_mini.svg"
           title="About Us"
           subTitle="Taywade Multispeciality Hospital"
@@ -293,6 +326,16 @@ export default function Home() {
         />
       </Section>
       {/* End About Section */}
+      {/*  Start Doctors Section  */}
+      <Section topMd={190} topLg={145} topXl={105}>
+        <TeamSection
+          sectionTitle="Experts Doctor"
+          sectionTitleUp="MEET OUR"
+          data={teamData}
+        />
+      </Section>
+      {/* End Doctors Section  */}
+
       {/* Start Feature Section */}
       <Section
         topMd={185}
@@ -342,7 +385,7 @@ export default function Home() {
       <Section>
         <Banner
           bgUrl="images/home_1/cta_bg.svg"
-          imgUrl="images/home_1/cta_img.png"
+          imgUrl="images/mainUpload/taywadeLogo.jpg"
           title="Don’t Let Your Health Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced medical professionals today!"
         />
