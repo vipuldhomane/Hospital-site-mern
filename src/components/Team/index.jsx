@@ -31,7 +31,7 @@ export default function Team({
                 target="_blank"
                 rel="noreferrer"
               >
-                Book on WhatsApp
+                Book Appointment
               </a>
             </span>
           </div>
