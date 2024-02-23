@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import Spacing from '../Spacing';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import Spacing from "../Spacing";
+import { Link } from "react-router-dom";
 
 export default function BreadcrumbStyle2() {
   const [urlSegments, setUrlSegments] = useState([]);
   useEffect(() => {
     const pathSegments = window.location.pathname
-      .split('/')
-      .filter(segment => segment !== '');
+      .split("/")
+      .filter((segment) => segment !== "");
     setUrlSegments(pathSegments);
   }, []);
   return (
@@ -23,7 +23,7 @@ export default function BreadcrumbStyle2() {
               {urlSegments.map((segment, index) => (
                 <li key={index} className="breadcrumb-item">
                   {index < urlSegments.length - 1 ? (
-                    <Link to={`/${urlSegments.slice(0, index + 1).join('/')}`}>
+                    <Link to={`/${urlSegments.slice(0, index + 1).join("/")}`}>
                       {segment}
                     </Link>
                   ) : (
@@ -32,7 +32,7 @@ export default function BreadcrumbStyle2() {
                 </li>
               ))}
             </ol>
-            <form action="#" className="cs_search_form">
+            {/* <form action="#" className="cs_search_form">
               <input type="text" placeholder="Search Doctors" />
               <button className="cs_search_btn">
                 <svg
@@ -48,7 +48,7 @@ export default function BreadcrumbStyle2() {
                   />
                 </svg>
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

@@ -50,6 +50,9 @@ export default function Header({ logoSrc, variant }) {
                     <li>
                       <Link to="/about">About</Link>
                     </li>
+                    <li>
+                      <Link to="/departments">Departments</Link>
+                    </li>
 
                     <li>
                       <Link to="/plans">Health Plans</Link>

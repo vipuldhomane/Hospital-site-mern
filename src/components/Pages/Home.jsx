@@ -164,44 +164,81 @@ const awardData = [
 ];
 const departmentData = [
   {
-    title: "Emergency",
+    title: "Orthopaedics",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Orthopaedics",
+  },
+  {
+    title: "Radiology",
     iconUrl: "images/home_1/department_icon_1.svg",
-    href: "/departments/department-details",
+    href: "/departments/radiology",
   },
   {
-    title: "Pediatric",
+    title: "General Medicine",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/GeneralMedicine",
+  },
+  {
+    title: "Critical care medicine/ICU",
+    iconUrl: "images/home_1/department_icon_1.svg",
+    href: "/departments/criticalcare",
+  },
+  {
+    title: "General Surgery",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/GeneralSurgery",
+  },
+
+  {
+    title: "Pediatrics",
     iconUrl: "images/home_1/department_icon_2.svg",
-    href: "/departments/department-details",
+    href: "/departments/pediatrics",
   },
   {
-    title: "Gynecology",
+    title: "Obstetrics and Gynecology",
     iconUrl: "images/home_1/department_icon_3.svg",
-    href: "/departments/department-details",
+    href: "/departments/Gynecology",
+  },
+  {
+    title: "Oral & Maxillofacial",
+    iconUrl: "images/home_1/department_icon_3.svg",
+    href: "/departments/oral",
+  },
+  {
+    title: "Anaesthesia",
+    iconUrl: "images/home_1/department_icon_3.svg",
+    href: "/departments/Anaesthesia",
   },
   {
     title: "Cardiology",
     iconUrl: "images/home_1/department_icon_4.svg",
-    href: "/departments/department-details",
+    href: "/departments/Cardiology",
   },
   {
-    title: "Neurology",
+    title: "Neurosurgery",
     iconUrl: "images/home_1/department_icon_5.svg",
-    href: "/departments/department-details",
+    href: "/departments/Neurosurgery",
   },
+
   {
-    title: "Orthopaedics",
+    title: "Urology",
     iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/department-details",
-  },
-  {
-    title: "Ear, Nose & Throat",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/department-details",
+    href: "/departments/Urology",
   },
   {
     title: "Pathology",
     iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/department-details",
+    href: "/departments/Pathology",
+  },
+  {
+    title: "Plastic surgery",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Plasticsurgery",
+  },
+  {
+    title: "Gastroenterology",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Gastroenterology",
   },
 ];
 // Edit here for contact details and services
@@ -237,28 +274,28 @@ const teamData = [
   {
     imgUrl: "images/mainUpload/docStock.jpg",
     name: "Dr. Shounak Taywade",
-    designation: "Head Of Orthopaedics and Joint Replacement",
+    designation: "Consultant Orthopaedics and Joint Replacement Surgeon",
     description:
       "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement surgeries",
   },
   {
     imgUrl: "images/mainUpload/docStock.jpg",
     name: "Dr. Ankita Taywade",
-    designation: "Head Of Radiology Department",
+    designation: "Consultant Radiologist",
     description:
       "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
   },
   {
     imgUrl: "images/mainUpload/docStock.jpg",
     name: "Dr.  Paras Zunke",
-    designation: "General medicine and Diabetologist",
+    designation: "Consultant General medicine and Diabetologist",
     description:
       "Experienced Diabetologist and General Medicine specialist dedicated to providing comprehensive care and management for diabetes and general health concerns.",
   },
   {
     imgUrl: "images/mainUpload/docStock.jpg",
     name: "Dr. Anupama Zade",
-    designation: "Intensivist, CriticalCare Physician",
+    designation: "Consultant Intensivist, CriticalCare Physician",
     description:
       "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
   },

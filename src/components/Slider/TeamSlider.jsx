@@ -1,6 +1,6 @@
-import React from 'react';
-import Slider from 'react-slick';
-import TeamStyle3 from '../Team/TeamStyle3';
+import React from "react";
+import Slider from "react-slick";
+import TeamStyle3 from "../Team/TeamStyle3";
 
 export default function TeamSlider({ data }) {
   /** Slider Settings **/
@@ -8,8 +8,8 @@ export default function TeamSlider({ data }) {
     <div
       {...props}
       className={
-        'cs_slider_prev cs_center' +
-        (currentSlide === 0 ? ' slick-disabled' : '')
+        "cs_slider_prev cs_center" +
+        (currentSlide === 0 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === 0 ? true : false}
@@ -21,8 +21,8 @@ export default function TeamSlider({ data }) {
     <div
       {...props}
       className={
-        'cs_slider_next cs_center' +
-        (currentSlide === slideCount - 1 ? ' slick-disabled' : '')
+        "cs_slider_next cs_center" +
+        (currentSlide === slideCount - 1 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === slideCount - 1 ? true : false}

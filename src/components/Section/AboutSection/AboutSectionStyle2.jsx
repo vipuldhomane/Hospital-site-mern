@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 export default function AboutSectionStyle2({ title, subTitle, imgUrl }) {
   return (
-    <section className="cs_shape_wrap">
+    <section className="cs_shape_wrap my-10">
       <div className="cs_shape_1 cs_position_5" />
       <div className="container">
         <div className="row align-items-center">

@@ -75,9 +75,7 @@ export default function DepartmentCarousel({ data }) {
     ],
   };
 
-
   return (
-
     <>
       <Slider
         {...settings}
@@ -85,9 +83,11 @@ export default function DepartmentCarousel({ data }) {
       >
         {data?.map((item, index) => (
           <div key={index}>
-
             {/* Hyperlink can be given in the link tag if wanted */}
-            <Link className="cs_department cs_shadow_1 cs_radius_20 cs_white_bg">
+            <Link
+              to={item.href}
+              className="cs_department cs_shadow_1 cs_radius_20 cs_white_bg"
+            >
               <>
                 <img src={item.iconUrl} alt="Icon" />
                 <p className="cs_department_title cs_medium cs_heading_color cs_fs_20 mb-0">
@@ -99,6 +99,5 @@ export default function DepartmentCarousel({ data }) {
         ))}
       </Slider>
     </>
-
   );
 }

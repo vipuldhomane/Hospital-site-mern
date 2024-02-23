@@ -21,6 +21,10 @@ import Blog4 from "./components/Pages/Blog4";
 import Blog5 from "./components/Pages/Blog5";
 import Blog6 from "./components/Pages/Blog6";
 import PricingPlan from "./components/Pages/PricingPlan";
+import Departments from "./components/Pages/Departments";
+import DepartmentSection from "./components/Section/DepartmentSection";
+import DoctorDetailsSection from "./components/Section/DoctorDetailsSection";
+import DepartmentDetail from "./components/Pages/DepartmentDetails";
 
 function App() {
   const { pathname } = useLocation();
@@ -48,6 +52,11 @@ function App() {
         <Route path="gallery" element={<Gallery />} />
 
         <Route path="contact" element={<Contact />} />
+        <Route path="departments" element={<Departments />} />
+        <Route
+          path="departments/:departmentId"
+          element={<DepartmentDetail />}
+        />
       </Route>
       <Route path="*" element={<ErrorPage />} />
     </Routes>

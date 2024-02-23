@@ -1,137 +1,241 @@
-import React from 'react';
-import BannerSectionStyle7 from '../Section/BannerSection/BannerSectionStyle7';
-import Section from '../Section';
-import AppointmentSection from '../Section/AppointmentSection';
-import BreadcrumbStyle2 from '../Breadcrumb/BreadcrumbStyle2';
-import AboutSectionStyle2 from '../Section/AboutSection/AboutSectionStyle2';
-import FeaturesSectionStyle3 from '../Section/FeaturesSection/FeaturesSectionStyle3';
-import TeamSectionStyle3 from '../Section/TeamSection/TeamSectionStyle3';
-import { pageTitle } from '../../helpers/PageTitle';
+import React, { useEffect, useState } from "react";
+import BannerSectionStyle7 from "../Section/BannerSection/BannerSectionStyle7";
+import Section from "../Section";
+import AppointmentSection from "../Section/AppointmentSection";
+import BreadcrumbStyle2 from "../Breadcrumb/BreadcrumbStyle2";
+import AboutSectionStyle2 from "../Section/AboutSection/AboutSectionStyle2";
+import FeaturesSectionStyle3 from "../Section/FeaturesSection/FeaturesSectionStyle3";
+import TeamSectionStyle3 from "../Section/TeamSection/TeamSectionStyle3";
+import { pageTitle } from "../../helpers/PageTitle";
+import { useParams } from "react-router-dom";
+import Team from "../Team";
 
-const featureData = [
+const departmentData = [
   {
-    title: 'Vaccinations Department',
-    subTitle:
-      'The Pediatric Department provides vaccinations to help protect children from a range of illnesses and diseases, including measles.',
-    iconUrl: '/images/departments/icon_9.svg',
+    title: "Orthopaedics",
+    id: "Orthopaedics",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Orthopaedics",
+    subTitle: "Sample text",
+    deptImg: "",
+    doctor: {
+      imgUrl: "/images/mainUpload/docStock.jpg",
+      name: "Dr. Shounak Taywade",
+      designation: "Consultant Orthopaedics and Joint Replacement Surgeon",
+      description:
+        "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement surgeries",
+    },
   },
   {
-    title: 'Management of acute illnesses',
-    subTitle:
-      'The Pediatric Department provides treatment for common childhood illnesses, such as ear infections, strep throat, and viral infections.',
-    iconUrl: '/images/departments/icon_10.svg',
+    title: "General Medicine",
+    id: "GeneralMedicine",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/GeneralMedicine",
+    subTitle: "Sample text",
+    deptImg: "",
+    doctor: {
+      imgUrl: "/images/mainUpload/docStock.jpg",
+      name: "Dr.  Paras Zunke",
+      designation: "Consultant General medicine and Diabetologist",
+      description:
+        "Experienced Diabetologist and General Medicine specialist dedicated to providing comprehensive care and management for diabetes and general health concerns.",
+    },
   },
   {
-    title: 'Treatment of chronic conditions',
-    subTitle:
-      'The Pediatric Department provides ongoing care and treatment for children with chronic conditions such as asthma, diabetes, and allergies.',
-    iconUrl: '/images/departments/icon_11.svg',
+    title: "Radiology",
+    id: "radiology",
+    iconUrl: "images/home_1/department_icon_1.svg",
+    href: "/departments/radiology",
+    subTitle: "Sample text",
+    deptImg: "",
+    doctor: {
+      imgUrl: "/images/mainUpload/docStock.jpg",
+      name: "Dr. Ankita Taywade",
+      designation: "Consultant Radiologist",
+      description:
+        "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
+    },
+  },
+
+  {
+    title: "Critical care medicine/ICU",
+    id: "criticalcare",
+    iconUrl: "images/home_1/department_icon_1.svg",
+    href: "/departments/criticalcare",
+    subTitle: "Sample text",
+    deptImg: "",
+    doctor: {
+      imgUrl: "/images/mainUpload/docStock.jpg",
+      name: "Dr. Anupama Zade",
+      designation: "Consultant Intensivist, CriticalCare Physician",
+      description:
+        "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
+    },
   },
   {
-    title: 'Developmental screenings',
-    subTitle:
-      'The Pediatric Department provides regular developmental screenings to identify any delays or concerns and provide early intervention services.',
-    iconUrl: '/images/departments/icon_12.svg',
+    title: "General Surgery",
+    id: "GeneralSurgery",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/GeneralSurgery",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+
+  {
+    title: "Pediatrics",
+    id: "pediatrics",
+    iconUrl: "images/home_1/department_icon_2.svg",
+    href: "/departments/pediatrics",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+  {
+    title: "Obstetrics and Gynecology",
+    id: "Gynecology",
+    iconUrl: "images/home_1/department_icon_3.svg",
+    href: "/departments/Gynecology",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+  {
+    title: "Oral & Maxillofacial",
+    id: "oral",
+    iconUrl: "images/home_1/department_icon_3.svg",
+    href: "/departments/oral",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+  {
+    title: "Anaesthesia",
+    id: "Anaesthesia",
+    iconUrl: "images/home_1/department_icon_3.svg",
+    href: "/departments/Anaesthesia",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+  {
+    title: "Cardiology",
+    id: "Cardiology",
+    iconUrl: "images/home_1/department_icon_4.svg",
+    href: "/departments/Cardiology",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+  {
+    title: "Neurosurgery",
+    id: "Neurosurgery",
+    iconUrl: "images/home_1/department_icon_5.svg",
+    href: "/departments/Neurosurgery",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+
+  {
+    title: "Urology",
+    id: "Urology",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Urology",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+  {
+    title: "Pathology",
+    id: "Pathology",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Pathology",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+  {
+    title: "Plastic surgery",
+    id: "Plasticsurgery",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Plasticsurgery",
+    subTitle: "Sample text",
+    deptImg: "",
+  },
+  {
+    title: "Gastroenterology",
+    id: "Gastroenterology",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Gastroenterology",
+    subTitle: "Sample text",
+    deptImg: "",
   },
 ];
-
-const doctorData = [
+const teamData = [
   {
-    imgUrl: '/images/departments/related_doctor_1.jpeg',
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
+    imgUrl: "images/mainUpload/docStock.jpg",
+    name: "Dr. Anupama Zade",
+    designation: "Consultant Intensivist, CriticalCare Physician",
     description:
-      'With experience in managing complex <br />medical conditions in children',
-    social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
-    ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/appointments',
-  },
-  {
-    imgUrl: '/images/departments/related_doctor_1.jpeg',
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
-    description:
-      'With experience in managing complex <br />medical conditions in children',
-    social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
-    ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
-  },
-  {
-    imgUrl: '/images/departments/related_doctor_1.jpeg',
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
-    description:
-      'With experience in managing complex <br />medical conditions in children',
-    social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
-    ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
-  },
-  {
-    imgUrl: '/images/departments/related_doctor_1.jpeg',
-    name: 'Dr. Susan Bones, MD',
-    designation: 'Board-certified Pediatrician',
-    description:
-      'With experience in managing complex <br />medical conditions in children',
-    social: [
-      { icon: 'fa6-brands:facebook-f', href: '/about' },
-      { icon: 'fa6-brands:linkedin-in', href: '/about' },
-      { icon: 'fa6-brands:twitter', href: '/about' },
-    ],
-    availableUrl: '/',
-    callUrl: '/',
-    chatUrl: '/',
-    btnText: 'Booking',
-    btnUrl: '/',
+      "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
   },
 ];
+export default function DepartmentDetail() {
+  const params = useParams();
+  const [dept, setDept] = useState("");
+  console.log(params);
+  pageTitle("Department Details");
+  function filerDept(dept) {
+    const department = dept.find((item) => item.id === params.departmentId);
+    setDept(department);
+  }
+  useEffect(() => {
+    filerDept(departmentData);
+  }, []);
 
-export default function DepartmentDetails() {
-  pageTitle('Department Details');
+  console.log(dept);
   return (
     <>
       <BreadcrumbStyle2 />
-      <Section topMd={135} topLg={100} topXl={100}>
+      <Section
+        topMd={135}
+        topLg={100}
+        topXl={100}
+        bottomMd={200}
+        bottomLg={150}
+        bottomXl={110}
+      >
         <AboutSectionStyle2
-          title="Pediatric Department"
-          subTitle="This department specializes in the care of infants, children, adolescents, and provides a range of services including preventive care, developmental screenings, and treatment of childhood illnesses and conditions."
+          title={dept.title}
+          subTitle={dept.subTitle}
           imgUrl="/images/departments/department_img_1.png"
         />
       </Section>
 
-      <Section topMd={170} topLg={145} topXl={90}>
+      {/* <Section topMd={170} topLg={145} topXl={90}>
         <FeaturesSectionStyle3
           sectionTitle="Treatments"
           sectionTitleUp="MORE TYPE OF"
           data={featureData}
         />
-      </Section>
-      <Section topMd={200} topLg={150} topXl={100}>
+      </Section> */}
+      {/* <Section topMd={200} topLg={150} topXl={100}>
         <TeamSectionStyle3 sectionTitle="Related Doctor" data={doctorData} />
-      </Section>
+      </Section> */}
+      {dept.doctor && (
+        <Section
+          topMd={200}
+          topLg={150}
+          topXl={100}
+          bottomMd={200}
+          bottomLg={150}
+          bottomXl={110}
+        >
+          <div className="col-lg-4 mx-auto ">
+            <Team
+              imgUrl={dept.doctor.imgUrl}
+              name={dept.doctor.name}
+              designation={dept.doctor.designation}
+              description={dept.doctor.description}
+            />
+          </div>
+        </Section>
+      )}
 
       {/* Start Appointment Section */}
-      <Section
+      {/* <Section
         topMd={190}
         topLg={145}
         topXl={105}
@@ -145,16 +249,16 @@ export default function DepartmentDetails() {
           sectionTitleUp="BOOK AN"
           imgUrl="/images/home_1/appointment.jpeg"
         />
-      </Section>
+      </Section> */}
       {/* End Appointment Section */}
-      <Section className="cs_footer_margin_0">
+      {/* <Section className="cs_footer_margin_0">
         <BannerSectionStyle7
           imgUrl="/images/departments/banner_img_3.png"
           bgUrl="/images/departments/banner_bg_3.svg"
           title="Don’t Let Your Health <br />Take a Backseat!"
           subTitle="Schedule an appointment with one of our experienced <br />medical professionals today!"
         />
-      </Section>
+      </Section> */}
     </>
   );
 }

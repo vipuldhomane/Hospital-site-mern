@@ -1,5 +1,5 @@
-import React from 'react';
-import TeamSlider from '../../Slider/TeamSlider';
+import React from "react";
+import TeamSlider from "../../Slider/TeamSlider";
 
 export default function TeamSectionStyle3({ sectionTitle, data }) {
   return (
