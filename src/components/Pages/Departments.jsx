@@ -1,89 +1,174 @@
-import React from 'react';
-import BannerSectionStyle5 from '../Section/BannerSection/BannerSectionStyle5';
-import Section from '../Section';
-import DepartmentSectionStyle3 from '../Section/DepartmentSection/DepartmentSectionStyle3';
-import BannerSectionStyle6 from '../Section/BannerSection/BannerSectionStyle6';
-import { pageTitle } from '../../helpers/PageTitle';
-
+import React from "react";
+import BannerSectionStyle5 from "../Section/BannerSection/BannerSectionStyle5";
+import Section from "../Section";
+import DepartmentSectionStyle3 from "../Section/DepartmentSection/DepartmentSectionStyle3";
+import BannerSectionStyle6 from "../Section/BannerSection/BannerSectionStyle6";
+import { pageTitle } from "../../helpers/PageTitle";
 const departmentData = [
   {
-    iconUrl: 'images/departments/icon_1.svg',
-    title: 'Emergency Department',
-    subTitle:
-      'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
-    href: '/departments/department-details',
+    title: "Orthopaedics",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Orthopaedics",
   },
   {
-    iconUrl: 'images/departments/icon_1.svg',
-    title: 'Cardiology Department',
-    subTitle:
-      'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
-    href: '/departments/department-details',
+    title: "Radiology",
+    iconUrl: "images/home_1/department_icon_1.svg",
+    href: "/departments/radiology",
   },
   {
-    iconUrl: 'images/departments/icon_1.svg',
-    title: 'Pediatric Department',
-    subTitle:
-      'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
-    href: '/departments/department-details',
+    title: "General Medicine",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/GeneralMedicine",
   },
   {
-    iconUrl: 'images/departments/icon_1.svg',
-    title: 'Obstetrics and Gynecology',
-    subTitle:
-      'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
-    href: '/departments/department-details',
+    title: "Critical Care Medicine/ICU",
+    iconUrl: "images/home_1/department_icon_1.svg",
+    href: "/departments/criticalcare",
   },
   {
-    iconUrl: 'images/departments/icon_1.svg',
-    title: 'Psychiatry Department',
-    subTitle:
-      'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
-    href: '/departments/department-details',
+    title: "General Surgery",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/GeneralSurgery",
+  },
+
+  {
+    title: "Pediatrics",
+    iconUrl: "images/home_1/department_icon_2.svg",
+    href: "/departments/pediatrics",
   },
   {
-    iconUrl: 'images/departments/icon_1.svg',
-    title: 'Neurology Department',
-    subTitle:
-      'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
-    href: '/departments/department-details',
+    title: "Obstetric & Gynecology",
+    iconUrl: "images/home_1/department_icon_3.svg",
+    href: "/departments/Gynecology",
   },
   {
-    iconUrl: 'images/departments/icon_1.svg',
-    title: 'Occupational Therapy Department',
-    subTitle:
-      'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
-    href: '/departments/department-details',
+    title: "Oral & Maxillofacial",
+    iconUrl: "images/home_1/department_icon_3.svg",
+    href: "/departments/oral",
   },
   {
-    iconUrl: 'images/departments/icon_1.svg',
-    title: 'Physical Therapy Department',
-    subTitle:
-      'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
-    href: '/departments/department-details',
+    title: "Anaesthesia",
+    iconUrl: "images/home_1/department_icon_3.svg",
+    href: "/departments/Anaesthesia",
+  },
+  {
+    title: "Cardiology",
+    iconUrl: "images/home_1/department_icon_4.svg",
+    href: "/departments/Cardiology",
+  },
+  {
+    title: "Neurosurgery",
+    iconUrl: "images/home_1/department_icon_5.svg",
+    href: "/departments/Neurosurgery",
+  },
+
+  {
+    title: "Urology",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Urology",
+  },
+  {
+    title: "Pathology",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Pathology",
+  },
+  {
+    title: "Plastic Surgery",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Plasticsurgery",
+  },
+  {
+    title: "Gastroenterology",
+    iconUrl: "images/home_1/department_icon_6.svg",
+    href: "/departments/Gastroenterology",
   },
 ];
+// const departmentData = [
+//   {
+//     iconUrl: 'images/departments/icon_1.svg',
+//     title: 'Emergency Department',
+//     subTitle:
+//       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
+//     href: '/departments/department-details',
+//   },
+//   {
+//     iconUrl: 'images/departments/icon_1.svg',
+//     title: 'Cardiology Department',
+//     subTitle:
+//       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
+//     href: '/departments/department-details',
+//   },
+//   {
+//     iconUrl: 'images/departments/icon_1.svg',
+//     title: 'Pediatric Department',
+//     subTitle:
+//       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
+//     href: '/departments/department-details',
+//   },
+//   {
+//     iconUrl: 'images/departments/icon_1.svg',
+//     title: 'Obstetrics and Gynecology',
+//     subTitle:
+//       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
+//     href: '/departments/department-details',
+//   },
+//   {
+//     iconUrl: 'images/departments/icon_1.svg',
+//     title: 'Psychiatry Department',
+//     subTitle:
+//       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
+//     href: '/departments/department-details',
+//   },
+//   {
+//     iconUrl: 'images/departments/icon_1.svg',
+//     title: 'Neurology Department',
+//     subTitle:
+//       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
+//     href: '/departments/department-details',
+//   },
+//   {
+//     iconUrl: 'images/departments/icon_1.svg',
+//     title: 'Occupational Therapy Department',
+//     subTitle:
+//       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
+//     href: '/departments/department-details',
+//   },
+//   {
+//     iconUrl: 'images/departments/icon_1.svg',
+//     title: 'Physical Therapy Department',
+//     subTitle:
+//       'This department provides immediate medical care to patients with acute illnesses or injuries that require immediate attention.',
+//     href: '/departments/department-details',
+//   },
+// ];
 
 export default function Departments() {
-  pageTitle('Departments');
+  pageTitle("Departments");
   return (
     <>
       <BannerSectionStyle5
         bgUrl="/images/departments/banner_bg.svg"
-        imgUrl="/images/departments/banner_img.png"
-        title="Get to Know <br>ProHealth Departments"
-        subTitle="At ProHealth, we offer a wide range of medical and healthcare services that are designed to meet your individual needs and help you achieve optimal health."
+        imgUrl="/images/mainUpload/taywadeBuild.png"
+        title="Taywade MultiSpecialty Hospital <br/> Departments"
+        subTitle="At Taywade MultiSpecialty Hospital, we offer a wide range of medical and healthcare services that are designed to meet your individual needs and help you achieve optimal health."
       />
-      <Section bottomMd={140} bottomLg={100} bottomXl={60}>
+      <Section
+        topMd={200}
+        topLg={160}
+        topXl={140}
+        bottomMd={140}
+        bottomLg={100}
+        bottomXl={60}
+      >
         <DepartmentSectionStyle3 data={departmentData} />
       </Section>
-      <Section className="cs_footer_margin_0">
+      {/* <Section className="cs_footer_margin_0">
         <BannerSectionStyle6
           imgUrl="/images/departments/banner_img_2.png"
           title="Don’t Let Your Health Take a Backseat!"
           subTitle="Schedule an appointment with one of our <br />experienced medical professionals today!"
         />
-      </Section>
+      </Section> */}
     </>
   );
 }
