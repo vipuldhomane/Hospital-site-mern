@@ -208,22 +208,6 @@ export default function About() {
           data={departmentData}
         />
       </Section>
-      {/* Sample Carausal */}
-      {/* <Section topMd={200} topLg={150} topXl={110}>
-        <Slider {...settings} className="cs_carausel">
-          {galleryData.map((image, index) => {
-            return (
-              <img
-                src={image.imgUrl}
-                alt="hospital"
-                key={index}
-                className="cs_carau_img "
-              />
-            );
-          })}
-        </Slider>
-      </Section> */}
-      {/* Sample Carausal */}
 
       <Section topMd={175} topLg={125} topXl={85} bottomMd={100} bottomLg={110}>
         <FeaturesSectionStyle2
