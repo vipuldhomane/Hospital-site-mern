@@ -5,25 +5,30 @@ import Section from "../Section";
 import PricingSection from "../Section/PricingSection";
 import FaqSectionStyle4 from "../Section/FaqSection/FaqSectionStyle4";
 import BannerSectionStyle10 from "../Section/BannerSection/BannerSectionStyle10";
+import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 const pricingData = [
   {
     title: "Diabetic Health Check-up",
+    iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
 
   {
     title: "Cardiac Health Check-up",
+    iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
   {
     title: "Complete Health Check-up",
+    iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
   {
     title: "Routine Check-up",
+    iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
@@ -41,6 +46,7 @@ export default function PricingPlan() {
         btnText="Get Starter"
         btnUrl="/contact"
       />
+
       <Section
         topMd={185}
         topLg={140}
@@ -49,8 +55,10 @@ export default function PricingPlan() {
         bottomLg={150}
         bottomXl={110}
       >
-        <PricingSection
-          sectionTitle="Choose Your  <br />Health Plan"
+        <AwardSectionStyle2
+          sectionTitle="Choose the Plans that Fits for you"
+          sectionTitleUp="Health Plans"
+          sectionSubTitle=""
           data={pricingData}
         />
       </Section>
