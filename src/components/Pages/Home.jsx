@@ -15,6 +15,7 @@ import { pageTitle } from "../../helpers/PageTitle";
 import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 import Slider from "react-slick";
 import TeamSection from "../Section/TeamSection";
+import { departmentData } from "./departmentsData";
 var settings = {
   dots: true,
   infinite: true,
@@ -162,85 +163,7 @@ const awardData = [
     title: "Physiotherapy Setup",
   },
 ];
-const departmentData = [
-  {
-    title: "Orthopaedics",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/Orthopaedics",
-  },
-  {
-    title: "Radiology",
-    iconUrl: "images/home_1/department_icon_1.svg",
-    href: "/departments/radiology",
-  },
-  {
-    title: "General Medicine",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/GeneralMedicine",
-  },
-  {
-    title: "Critical care medicine/ICU",
-    iconUrl: "images/home_1/department_icon_1.svg",
-    href: "/departments/criticalcare",
-  },
-  {
-    title: "General Surgery",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/GeneralSurgery",
-  },
-
-  {
-    title: "Pediatrics",
-    iconUrl: "images/home_1/department_icon_2.svg",
-    href: "/departments/pediatrics",
-  },
-  {
-    title: "Obstetrics and Gynecology",
-    iconUrl: "images/home_1/department_icon_3.svg",
-    href: "/departments/Gynecology",
-  },
-  {
-    title: "Oral & Maxillofacial",
-    iconUrl: "images/home_1/department_icon_3.svg",
-    href: "/departments/oral",
-  },
-  {
-    title: "Anaesthesia",
-    iconUrl: "images/home_1/department_icon_3.svg",
-    href: "/departments/Anaesthesia",
-  },
-  {
-    title: "Cardiology",
-    iconUrl: "images/home_1/department_icon_4.svg",
-    href: "/departments/Cardiology",
-  },
-  {
-    title: "Neurosurgery",
-    iconUrl: "images/home_1/department_icon_5.svg",
-    href: "/departments/Neurosurgery",
-  },
-
-  {
-    title: "Urology",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/Urology",
-  },
-  {
-    title: "Pathology",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/Pathology",
-  },
-  {
-    title: "Plastic surgery",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/Plasticsurgery",
-  },
-  {
-    title: "Gastroenterology",
-    iconUrl: "images/home_1/department_icon_6.svg",
-    href: "/departments/Gastroenterology",
-  },
-];
+const deptData = departmentData;
 // Edit here for contact details and services
 const infoList = [
   {
