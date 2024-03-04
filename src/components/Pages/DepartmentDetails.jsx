@@ -9,6 +9,7 @@ import { pageTitle } from "../../helpers/PageTitle";
 import { useParams } from "react-router-dom";
 import Team from "../Team";
 import SectionHeading from "../SectionHeading";
+import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 
 const departmentData = [
   {
@@ -24,8 +25,159 @@ const departmentData = [
       name: "Dr. Shounak Taywade",
       designation: "Consultant Orthopaedics and Joint Replacement Surgeon",
       description:
-        "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement surgeries",
+        "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement specialities",
     },
+    specialities: [
+      // Joint Replacement Surgery
+      {
+        title: "Total Knee Replacement",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Total Hip Replacement",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Total Shoulder Replacement",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+
+      // Arthroscopic Knee & Shoulder Surgery
+      {
+        title: "ACL/PCL Reconstruction Surgery",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Meniscus Repair Surgery",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "MCL/LCL Surgery",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Multi-ligament Surgery",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Rotator Cuff Repair",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Bankart Repair",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Frozen Shoulder",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+
+      // Spine Surgery
+      {
+        title: "Prolapsed Intervertebral disc",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Lumbar Canal Stenosis",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Spine Fixation Surgery",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+
+      // Complex Fracture Fixation Surgeries
+      {
+        title: "Complex Fracture Fixation Surgery",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Frozen Shoulder",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Knee Replacement",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Hip Replacement",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Tennis Elbow",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Plantar Fasciitis",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Lumbar and Cervical Spondylosis",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Hip Pain, Knee pain",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Sports Injury",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      { title: "Sprain", iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png" },
+      { title: "Strain", iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png" },
+      {
+        title: "Ligament Injury",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Twisting Injury",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Joint Preservation Surgery",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "HTO (High Tibial Osteotomy)",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Femoral Osteotomy",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "ACL with internal Bracing",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Arthroscopy",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "USG Guided Joint Injections",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Knee pain",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Shoulder Pain",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Digital X-ray Facilities",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Tennis Elbow",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Plantar Fasciitis / Heel Pain",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+    ],
   },
   {
     title: "General Medicine",
@@ -59,6 +211,97 @@ const departmentData = [
       description:
         "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
     },
+    specialities: [
+      {
+        title: "32 SLICE GE REVOLUTION CT SCAN",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Head to Toe Spiral CT Scan on Advanced Machine",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title:
+          "CT Angiography and Perfusion Studies of Head / Neck / Body / Extremities",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Virtual Bronchoscopy & Colonoscopy",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "CT Urography/Dual/Triple Phase Organ Imaging",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Oncology and Cancer Imaging",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "HRCT Chest/Temporal Bone (Cochlear Imaging)/PNS",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Skeletal and Spine Scanning with Advanced 3D Reconstruction",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Pediatric Low Dose Radiation Scan",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "3D/4D/5D SONOGRAPHY",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Panoramic Organ Imaging",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Targeted Obstetric Imaging",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "High Resolution Abdominal USG",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Small Parts / Transvaginal / Transrectal USG",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Musculoskeletal & Neurosonography",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Sonomammography",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Shear wave/strain Elastography for Liver. Breast, Thyroid etc.",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "COLOUR DOPPLER Peripheral Arterial & Venous",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Carotid/Renal / Abdominal Obstetric & Gynaec",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "2D ECHO Cardiography",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "DIGITAL X-RAY Conventional Radiography",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Radiological Procedures (Barium Studies, IVU/MCU/RGU/HSG)",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+    ],
   },
 
   {
@@ -76,6 +319,41 @@ const departmentData = [
       description:
         "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
     },
+    specialties: [
+      {
+        title:
+          "Critical Care/Intensive Care (Septic shock, Cardiogenic shock, Multiorgan Failure, Respiratory Failure/ARDS, etc)",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+
+      {
+        title:
+          "Management of Onco-emergencies / Post Solid Organ Transplant / Post Bone Marrow Transplant patients",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title:
+          "Artificial lung and heart support (Extracorporeal membrane Oxygenation) ECMO provider",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title:
+          "Management of acute and chronic complications in Diabetes mellitus",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Management of various infections",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Drug overdose and poisoning",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+      {
+        title: "Post ICU/Hospital discharge rehabilitation",
+        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      },
+    ],
   },
   {
     title: "General Surgery",
@@ -83,7 +361,7 @@ const departmentData = [
     iconUrl: "images/home_1/department_icon_6.svg",
     href: "/departments/GeneralSurgery",
     subTitle:
-      "Experience superior surgical care at Taywade Hospital's general surgery department. Our skilled surgeons perform a variety of procedures with precision and compassion, ranging from routine surgeries to complex interventions. With state-of-the-art facilities and a patient-centered approach, we ensure excellent outcomes and utmost comfort throughout your surgical journey.",
+      "Experience superior surgical care at Taywade Hospital's general surgery department. Our skilled surgeons perform a variety of procedures with precision and compassion, ranging from routine specialities to complex interventions. With state-of-the-art facilities and a patient-centered approach, we ensure excellent outcomes and utmost comfort throughout your surgical journey.",
     deptImg: "/images/mainUpload/DeptPhotos/genserDept.jpg",
   },
 
@@ -138,7 +416,7 @@ const departmentData = [
     iconUrl: "images/home_1/department_icon_5.svg",
     href: "/departments/Neurosurgery",
     subTitle:
-      "In Taywade Hospital's neurosurgery department, our expert neurosurgeons specialize in treating disorders of the brain, spine, and nervous system. From complex brain surgeries to minimally invasive spinal procedures, we employ advanced techniques and technology to deliver exceptional care and improve patient outcomes.",
+      "In Taywade Hospital's neurosurgery department, our expert neurosurgeons specialize in treating disorders of the brain, spine, and nervous system. From complex brain specialities to minimally invasive spinal procedures, we employ advanced techniques and technology to deliver exceptional care and improve patient outcomes.",
     deptImg: "/images/mainUpload/DeptPhotos/nuroDept.jpg",
   },
 
@@ -166,7 +444,7 @@ const departmentData = [
     iconUrl: "images/home_1/department_icon_6.svg",
     href: "/departments/Plasticsurgery",
     subTitle:
-      "Discover personalized aesthetic and reconstructive solutions at Taywade Hospital's plastic surgery department. Our board-certified plastic surgeons specialize in a wide range of procedures, from cosmetic enhancements to complex reconstructive surgeries, utilizing advanced techniques and innovative approaches to help you achieve your desired look and improve your quality of life.",
+      "Discover personalized aesthetic and reconstructive solutions at Taywade Hospital's plastic surgery department. Our board-certified plastic surgeons specialize in a wide range of procedures, from cosmetic enhancements to complex reconstructive specialities, utilizing advanced techniques and innovative approaches to help you achieve your desired look and improve your quality of life.",
     deptImg: "/images/mainUpload/DeptPhotos/plasticDept.jpg",
   },
   {
@@ -179,7 +457,91 @@ const departmentData = [
     deptImg: "/images/mainUpload/DeptPhotos/gastroDept.jpg",
   },
 ];
+const pricingData = [
+  {
+    title: "Diagnostic Testing",
+    btnText: "Get Details on WhatsApp",
+    btnUrl: "https://wa.me/919422334702",
+    iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
 
+    subTitle:
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+  },
+
+  {
+    title: "Preventive Check-up",
+    btnText: "Get Details on WhatsApp",
+    btnUrl: "https://wa.me/919422334702",
+    iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+    featureList: [
+      "FBS",
+      "PPBS",
+      "HbA1C",
+      "Lipid Profile",
+      "Liver Profile",
+      "TSH",
+      "KFT With Uric Acid",
+      "CBC With ESR",
+      "Urine Routine",
+      "Chest X-Ray",
+      "ECG",
+      "TMT or 2D Echo",
+    ],
+    subTitle:
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+  },
+
+  {
+    title: "Routine Check-up",
+    btnText: "Get Details on WhatsApp",
+    btnUrl: "https://wa.me/919422334702",
+    iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+    featureList: [
+      "CBC",
+      "Serum Creatinine",
+      "Random Blood Sugar",
+      "Serum Cholesterol",
+      "TSH",
+      "SGPT",
+      "Serum Bilirubin",
+      "Urine Routine",
+      "ECG",
+      "Chest X-Ray",
+      "Consultation With Doctor",
+    ],
+    subTitle:
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+  },
+  {
+    title: "Expert Consultation",
+    btnText: "Get Details on WhatsApp",
+    btnUrl: "https://wa.me/919422334702",
+    iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+    featureList: [
+      "FBS",
+      "PPBS",
+      "HBA1C",
+      "CBC With ESR",
+      "KFT with Uric Acid",
+      "LFT",
+      "Lipid Profile (F)",
+      "Thyroid Profile",
+      "HbsAg",
+      "Urine Routine",
+      "Vit B12",
+      "Vit D3",
+      "PSA (Male)/ PAP Smear (Female)",
+      "Chest X-Ray",
+      "ECG TMT or 2D Echo",
+      "USG (Sonography) Abdomen With Pelvis",
+      "Consultation With Doctor",
+      "Consultation With Gynecologist",
+      "Consultation With Physiotherapist",
+    ],
+    subTitle:
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+  },
+];
 export default function DepartmentDetail() {
   const params = useParams();
   const [dept, setDept] = useState("");
@@ -210,11 +572,25 @@ export default function DepartmentDetail() {
           imgUrl={dept.deptImg}
         />
       </Section>
-
+      <Section
+        topMd={185}
+        topLg={140}
+        topXl={100}
+        bottomMd={200}
+        bottomLg={150}
+        bottomXl={110}
+      >
+        <AwardSectionStyle2
+          sectionTitle=""
+          sectionTitleUp="Services & Specialties"
+          sectionSubTitle=""
+          data={dept.specialities}
+        />
+      </Section>
       {dept.doctor && (
         <>
           <SectionHeading
-            title="Head of Department"
+            title="Consultant Doctor"
             titleUp=""
             subTitle=""
             center

@@ -9,26 +9,102 @@ import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 const pricingData = [
   {
     title: "Diabetic Health Check-up",
+    btnText: "Get Details on WhatsApp",
+    btnUrl: "https://wa.me/919422334702",
     iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
+    featureList: [
+      "CBC",
+      "FBS",
+      "PPBS",
+      "HbA1C",
+      "Albumin Creat Ratio",
+      "Microalbumin",
+      "Urine Routine",
+      "Lipid Profile [F]",
+      "Thyroid Profile",
+      "KFT With Uric Acid",
+      "LFT",
+      "ECG",
+      "Chest X-Ray",
+      "TMT or 2D Echo",
+      "USG (Sonography) Abdomen",
+      "Fundus Examination",
+      "Consultation With Doctor",
+    ],
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
 
   {
     title: "Cardiac Health Check-up",
+    btnText: "Get Details on WhatsApp",
+    btnUrl: "https://wa.me/919422334702",
     iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
+    featureList: [
+      "FBS",
+      "PPBS",
+      "HbA1C",
+      "Lipid Profile",
+      "Liver Profile",
+      "TSH",
+      "KFT With Uric Acid",
+      "CBC With ESR",
+      "Urine Routine",
+      "Chest X-Ray",
+      "ECG",
+      "TMT or 2D Echo",
+    ],
+    subTitle:
+      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+  },
+
+  {
+    title: "Routine Check-up",
+    btnText: "Get Details on WhatsApp",
+    btnUrl: "https://wa.me/919422334702",
+    iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
+    featureList: [
+      "CBC",
+      "Serum Creatinine",
+      "Random Blood Sugar",
+      "Serum Cholesterol",
+      "TSH",
+      "SGPT",
+      "Serum Bilirubin",
+      "Urine Routine",
+      "ECG",
+      "Chest X-Ray",
+      "Consultation With Doctor",
+    ],
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
   {
     title: "Complete Health Check-up",
+    btnText: "Get Details on WhatsApp",
+    btnUrl: "https://wa.me/919422334702",
     iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
-    subTitle:
-      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-  },
-  {
-    title: "Routine Check-up",
-    iconUrl: "images/mainUpload/DeptLogo/mediLogo.png",
+    featureList: [
+      "FBS",
+      "PPBS",
+      "HBA1C",
+      "CBC With ESR",
+      "KFT with Uric Acid",
+      "LFT",
+      "Lipid Profile (F)",
+      "Thyroid Profile",
+      "HbsAg",
+      "Urine Routine",
+      "Vit B12",
+      "Vit D3",
+      "PSA (Male)/ PAP Smear (Female)",
+      "Chest X-Ray",
+      "ECG TMT or 2D Echo",
+      "USG (Sonography) Abdomen With Pelvis",
+      "Consultation With Doctor",
+      "Consultation With Gynecologist",
+      "Consultation With Physiotherapist",
+    ],
     subTitle:
       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
   },
@@ -46,8 +122,20 @@ export default function PricingPlan() {
         btnText="Get Starter"
         btnUrl="/contact"
       />
-
       <Section
+        topMd={185}
+        topLg={140}
+        topXl={100}
+        bottomMd={200}
+        bottomLg={150}
+        bottomXl={110}
+      >
+        <PricingSection
+          sectionTitle="Choose the Plans that Fits for you"
+          data={pricingData}
+        />
+      </Section>
+      {/* <Section
         topMd={185}
         topLg={140}
         topXl={100}
@@ -61,7 +149,7 @@ export default function PricingPlan() {
           sectionSubTitle=""
           data={pricingData}
         />
-      </Section>
+      </Section> */}
       {/* <Section
         topMd={185}
         topLg={145}

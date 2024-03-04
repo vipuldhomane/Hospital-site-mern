@@ -305,6 +305,10 @@ hr {
 .cs_gray_bg_1 {
   background-color: rgba(210, 234, 239, 0.2);
 }
+.doctorCont {
+  display: flex;
+  justify-content: space-around;
+}
 .cs_half_bg,
 .cs_half_bg_2 {
   position: relative;

@@ -26,11 +26,13 @@ var settings = {
   autoplaySpeed: 3000,
 };
 const galleryData = [
-  { imgUrl: "/images/mainUpload/carausalImg/img1.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img10.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img9.jpg" },
   { imgUrl: "/images/mainUpload/carausalImg/img2.jpg" },
-  { imgUrl: "/images/mainUpload/carausalImg/img3.jpg" },
-  { imgUrl: "/images/mainUpload/carausalImg/img4.jpg" },
   { imgUrl: "/images/mainUpload/carausalImg/img5.jpg" },
+  // { imgUrl: "/images/mainUpload/carausalImg/img3.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img4.jpg" },
+  { imgUrl: "/images/mainUpload/carausalImg/img1.jpg" },
   { imgUrl: "/images/mainUpload/carausalImg/img6.jpg" },
   { imgUrl: "/images/mainUpload/carausalImg/img7.jpg" },
   { imgUrl: "/images/mainUpload/carausalImg/img8.jpg" },
@@ -208,20 +210,20 @@ const teamData = [
     description:
       "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
   },
-  {
-    imgUrl: "images/mainUpload/docStock.jpg",
-    name: "Dr.  Paras Zunke",
-    designation: "Consultant General medicine and Diabetologist",
-    description:
-      "Experienced Diabetologist and General Medicine specialist dedicated to providing comprehensive care and management for diabetes and general health concerns.",
-  },
-  {
-    imgUrl: "images/mainUpload/docStock.jpg",
-    name: "Dr. Anupama Zade",
-    designation: "Consultant Intensivist, CriticalCare Physician",
-    description:
-      "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
-  },
+  // {
+  //   imgUrl: "images/mainUpload/docStock.jpg",
+  //   name: "Dr.  Paras Zunke",
+  //   designation: "Consultant General medicine and Diabetologist",
+  //   description:
+  //     "Experienced Diabetologist and General Medicine specialist dedicated to providing comprehensive care and management for diabetes and general health concerns.",
+  // },
+  // {
+  //   imgUrl: "images/mainUpload/docStock.jpg",
+  //   name: "Dr. Anupama Zade",
+  //   designation: "Consultant Intensivist, CriticalCare Physician",
+  //   description:
+  //     "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
+  // },
 ];
 export default function Home() {
   pageTitle("Home");

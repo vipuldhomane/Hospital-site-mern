@@ -18,7 +18,7 @@ export default function Hero({
     <section className="cs_hero cs_style_1">
       <div className="">
         <video
-          src="samplevideo.mp4"
+          src="\images\mainUpload\taywadeWebHeaderVideo.mp4"
           preload="metadata"
           loop
           autoPlay
