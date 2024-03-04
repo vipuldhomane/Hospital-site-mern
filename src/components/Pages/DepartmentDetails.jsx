@@ -319,7 +319,7 @@ const departmentData = [
       description:
         "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
     },
-    specialties: [
+    specialities: [
       {
         title:
           "Critical Care/Intensive Care (Septic shock, Cardiogenic shock, Multiorgan Failure, Respiratory Failure/ARDS, etc)",
@@ -457,91 +457,91 @@ const departmentData = [
     deptImg: "/images/mainUpload/DeptPhotos/gastroDept.jpg",
   },
 ];
-const pricingData = [
-  {
-    title: "Diagnostic Testing",
-    btnText: "Get Details on WhatsApp",
-    btnUrl: "https://wa.me/919422334702",
-    iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+// const pricingData = [
+//   {
+//     title: "Diagnostic Testing",
+//     btnText: "Get Details on WhatsApp",
+//     btnUrl: "https://wa.me/919422334702",
+//     iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
 
-    subTitle:
-      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-  },
+//     subTitle:
+//       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+//   },
 
-  {
-    title: "Preventive Check-up",
-    btnText: "Get Details on WhatsApp",
-    btnUrl: "https://wa.me/919422334702",
-    iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-    featureList: [
-      "FBS",
-      "PPBS",
-      "HbA1C",
-      "Lipid Profile",
-      "Liver Profile",
-      "TSH",
-      "KFT With Uric Acid",
-      "CBC With ESR",
-      "Urine Routine",
-      "Chest X-Ray",
-      "ECG",
-      "TMT or 2D Echo",
-    ],
-    subTitle:
-      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-  },
+//   {
+//     title: "Preventive Check-up",
+//     btnText: "Get Details on WhatsApp",
+//     btnUrl: "https://wa.me/919422334702",
+//     iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+//     featureList: [
+//       "FBS",
+//       "PPBS",
+//       "HbA1C",
+//       "Lipid Profile",
+//       "Liver Profile",
+//       "TSH",
+//       "KFT With Uric Acid",
+//       "CBC With ESR",
+//       "Urine Routine",
+//       "Chest X-Ray",
+//       "ECG",
+//       "TMT or 2D Echo",
+//     ],
+//     subTitle:
+//       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+//   },
 
-  {
-    title: "Routine Check-up",
-    btnText: "Get Details on WhatsApp",
-    btnUrl: "https://wa.me/919422334702",
-    iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-    featureList: [
-      "CBC",
-      "Serum Creatinine",
-      "Random Blood Sugar",
-      "Serum Cholesterol",
-      "TSH",
-      "SGPT",
-      "Serum Bilirubin",
-      "Urine Routine",
-      "ECG",
-      "Chest X-Ray",
-      "Consultation With Doctor",
-    ],
-    subTitle:
-      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-  },
-  {
-    title: "Expert Consultation",
-    btnText: "Get Details on WhatsApp",
-    btnUrl: "https://wa.me/919422334702",
-    iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-    featureList: [
-      "FBS",
-      "PPBS",
-      "HBA1C",
-      "CBC With ESR",
-      "KFT with Uric Acid",
-      "LFT",
-      "Lipid Profile (F)",
-      "Thyroid Profile",
-      "HbsAg",
-      "Urine Routine",
-      "Vit B12",
-      "Vit D3",
-      "PSA (Male)/ PAP Smear (Female)",
-      "Chest X-Ray",
-      "ECG TMT or 2D Echo",
-      "USG (Sonography) Abdomen With Pelvis",
-      "Consultation With Doctor",
-      "Consultation With Gynecologist",
-      "Consultation With Physiotherapist",
-    ],
-    subTitle:
-      "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
-  },
-];
+//   {
+//     title: "Routine Check-up",
+//     btnText: "Get Details on WhatsApp",
+//     btnUrl: "https://wa.me/919422334702",
+//     iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+//     featureList: [
+//       "CBC",
+//       "Serum Creatinine",
+//       "Random Blood Sugar",
+//       "Serum Cholesterol",
+//       "TSH",
+//       "SGPT",
+//       "Serum Bilirubin",
+//       "Urine Routine",
+//       "ECG",
+//       "Chest X-Ray",
+//       "Consultation With Doctor",
+//     ],
+//     subTitle:
+//       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+//   },
+//   {
+//     title: "Expert Consultation",
+//     btnText: "Get Details on WhatsApp",
+//     btnUrl: "https://wa.me/919422334702",
+//     iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+//     featureList: [
+//       "FBS",
+//       "PPBS",
+//       "HBA1C",
+//       "CBC With ESR",
+//       "KFT with Uric Acid",
+//       "LFT",
+//       "Lipid Profile (F)",
+//       "Thyroid Profile",
+//       "HbsAg",
+//       "Urine Routine",
+//       "Vit B12",
+//       "Vit D3",
+//       "PSA (Male)/ PAP Smear (Female)",
+//       "Chest X-Ray",
+//       "ECG TMT or 2D Echo",
+//       "USG (Sonography) Abdomen With Pelvis",
+//       "Consultation With Doctor",
+//       "Consultation With Gynecologist",
+//       "Consultation With Physiotherapist",
+//     ],
+//     subTitle:
+//       "Specialized care for seniors. Benefit from tailored assessments, fall prevention, and support for your golden years.",
+//   },
+// ];
 export default function DepartmentDetail() {
   const params = useParams();
   const [dept, setDept] = useState("");
