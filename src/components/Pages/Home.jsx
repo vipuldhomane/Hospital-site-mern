@@ -16,6 +16,8 @@ import AwardSectionStyle2 from "../Section/AwardSection/AwardSectionStyle2";
 import Slider from "react-slick";
 import TeamSection from "../Section/TeamSection";
 import { departmentData } from "./departmentsData";
+import { Link } from "react-router-dom";
+import { Icon } from "@iconify/react";
 var settings = {
   dots: true,
   infinite: true,
@@ -202,6 +204,11 @@ const teamData = [
     designation: "Consultant Orthopaedics and Joint Replacement Surgeon",
     description:
       "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement surgeries",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
   },
   {
     imgUrl: "images/mainUpload/docStock.jpg",
@@ -209,6 +216,11 @@ const teamData = [
     designation: "Consultant Radiologist",
     description:
       "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
+    social: [
+      { icon: "fa6-brands:facebook-f", href: "/about" },
+      { icon: "fa6-brands:linkedin-in", href: "/about" },
+      { icon: "fa6-brands:twitter", href: "/about" },
+    ],
   },
   // {
   //   imgUrl: "images/mainUpload/docStock.jpg",
@@ -224,6 +236,11 @@ const teamData = [
   //   description:
   //     "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
   // },
+];
+const social = [
+  { icon: "fa6-brands:facebook-f", href: "/about" },
+  { icon: "fa6-brands:linkedin-in", href: "/about" },
+  { icon: "fa6-brands:twitter", href: "/about" },
 ];
 export default function Home() {
   pageTitle("Home");
@@ -340,6 +357,39 @@ export default function Home() {
           sectionTitle="Some Reviews"
           sectionTitleDown="Of our clients"
         />
+        <div class="iframe-container">
+          <h3>See what our patients say about us</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?si=sVXI7lEuwvPPeJz5&amp;list=PLEVkQGIATCXIBlDXgfCz-p7b0OJNBgULN"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </Section>
+      {/* End Testimonial */}
+      {/* Start Testimonial */}
+      <Section
+        topMd={185}
+        topLg={140}
+        topXl={100}
+        bottomMd={200}
+        bottomLg={150}
+        bottomXl={110}
+      >
+        <div className="socialLinks">
+          <h3>Follow us for Latest Updates on HealthCare</h3>
+          <div className="cs_social_links">
+            {social?.map((item, index) => (
+              <Link to={item.href} key={index}>
+                <Icon icon={item.icon} />
+              </Link>
+            ))}
+          </div>
+        </div>
       </Section>
       {/* End Testimonial */}
 

@@ -309,6 +309,23 @@ hr {
   display: flex;
   justify-content: space-around;
 }
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  margin: 20px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
 .cs_half_bg,
 .cs_half_bg_2 {
   position: relative;

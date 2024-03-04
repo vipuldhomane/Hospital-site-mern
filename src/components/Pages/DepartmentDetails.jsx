@@ -572,21 +572,23 @@ export default function DepartmentDetail() {
           imgUrl={dept.deptImg}
         />
       </Section>
-      <Section
-        topMd={185}
-        topLg={140}
-        topXl={100}
-        bottomMd={200}
-        bottomLg={150}
-        bottomXl={110}
-      >
-        <AwardSectionStyle2
-          sectionTitle=""
-          sectionTitleUp="Services & Specialties"
-          sectionSubTitle=""
-          data={dept.specialities}
-        />
-      </Section>
+      {dept.specialities && (
+        <Section
+          topMd={185}
+          topLg={140}
+          topXl={100}
+          bottomMd={200}
+          bottomLg={150}
+          bottomXl={110}
+        >
+          <AwardSectionStyle2
+            sectionTitle=""
+            sectionTitleUp="Services & Specialties"
+            sectionSubTitle=""
+            data={dept.specialities}
+          />
+        </Section>
+      )}
       {dept.doctor && (
         <>
           <SectionHeading

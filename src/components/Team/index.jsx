@@ -23,6 +23,15 @@ export default function Team({
           <p className="cs_member_description">{description}</p>
         </div>
         <div>
+          <div className="cs_social_links">
+            {social?.map((item, index) => (
+              <Link to={item.href} key={index}>
+                <Icon icon={item.icon} />
+              </Link>
+            ))}
+          </div>
+        </div>
+        <div>
           <div className="cs_btn cs_style_1 m-3 cs_stickybutton">
             <span>
               <a
