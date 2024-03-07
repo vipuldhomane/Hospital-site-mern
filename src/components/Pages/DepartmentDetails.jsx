@@ -194,8 +194,7 @@ const departmentData = [
       imgUrl: "/images/mainUpload/docStock.jpg",
       name: "Dr.  Paras Zunke",
       designation: "Consultant General medicine and Diabetologist",
-      degree:
-        "MBBS - GMC Nagpur DMRD - GOLD Medallist (Nair Hospital, Mumbai), DNB Radio Diagnosis (Jaslok Hospital, Mumbai)",
+
       degree:
         "MBBS, MD (Internal Medicine), IDCCM (Critical Care), Mumbai,PG Dip in DM & Renal Management (RCP LONDON, UK),FIDM (Diabetes) CMC VELLORE",
       description:
