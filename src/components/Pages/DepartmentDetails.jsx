@@ -24,6 +24,8 @@ const departmentData = [
       imgUrl: "/images/mainUpload/docStock.jpg",
       name: "Dr. Shounak Taywade",
       designation: "Consultant Orthopaedics and Joint Replacement Surgeon",
+      degree:
+        "MBBS, M.S Orthopaedics Fellowship in Adult Joint Reconstruction (UK,Mumbai)",
       description:
         "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement specialities",
     },
@@ -38,145 +40,145 @@ const departmentData = [
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
       {
-        title: "Total Shoulder Replacement",
+        title: "Revision Joint Replacement Surgery",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
 
       // Arthroscopic Knee & Shoulder Surgery
       {
-        title: "ACL/PCL Reconstruction Surgery",
+        title: "Ligament Reconstruction Surgery (Arthroscopy)",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
       {
-        title: "Meniscus Repair Surgery",
+        title: "PRP Treatment (Platelet rich Plasma)",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
       {
-        title: "MCL/LCL Surgery",
+        title: "Fracture Management (Complex Trauma)",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
-      {
-        title: "Multi-ligament Surgery",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Rotator Cuff Repair",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Bankart Repair",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Frozen Shoulder",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
+      // {
+      //   title: "Multi-ligament Surgery",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Rotator Cuff Repair",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Bankart Repair",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Frozen Shoulder",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
 
-      // Spine Surgery
-      {
-        title: "Prolapsed Intervertebral disc",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Lumbar Canal Stenosis",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Spine Fixation Surgery",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
+      // // Spine Surgery
+      // {
+      //   title: "Prolapsed Intervertebral disc",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Lumbar Canal Stenosis",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Spine Fixation Surgery",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
 
-      // Complex Fracture Fixation Surgeries
-      {
-        title: "Complex Fracture Fixation Surgery",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Frozen Shoulder",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Knee Replacement",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Hip Replacement",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Tennis Elbow",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Plantar Fasciitis",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Lumbar and Cervical Spondylosis",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Hip Pain, Knee pain",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Sports Injury",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      { title: "Sprain", iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png" },
-      { title: "Strain", iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png" },
-      {
-        title: "Ligament Injury",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Twisting Injury",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Joint Preservation Surgery",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "HTO (High Tibial Osteotomy)",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Femoral Osteotomy",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "ACL with internal Bracing",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Arthroscopy",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "USG Guided Joint Injections",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Knee pain",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Shoulder Pain",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Digital X-ray Facilities",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Tennis Elbow",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Plantar Fasciitis / Heel Pain",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
+      // // Complex Fracture Fixation Surgeries
+      // {
+      //   title: "Complex Fracture Fixation Surgery",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Frozen Shoulder",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Knee Replacement",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Hip Replacement",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Tennis Elbow",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Plantar Fasciitis",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Lumbar and Cervical Spondylosis",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Hip Pain, Knee pain",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Sports Injury",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // { title: "Sprain", iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png" },
+      // { title: "Strain", iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png" },
+      // {
+      //   title: "Ligament Injury",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Twisting Injury",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Joint Preservation Surgery",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "HTO (High Tibial Osteotomy)",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Femoral Osteotomy",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "ACL with internal Bracing",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Arthroscopy",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "USG Guided Joint Injections",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Knee pain",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Shoulder Pain",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Digital X-ray Facilities",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Tennis Elbow",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Plantar Fasciitis / Heel Pain",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
     ],
   },
   {
@@ -192,6 +194,10 @@ const departmentData = [
       imgUrl: "/images/mainUpload/docStock.jpg",
       name: "Dr.  Paras Zunke",
       designation: "Consultant General medicine and Diabetologist",
+      degree:
+        "MBBS - GMC Nagpur DMRD - GOLD Medallist (Nair Hospital, Mumbai), DNB Radio Diagnosis (Jaslok Hospital, Mumbai)",
+      degree:
+        "MBBS, MD (Internal Medicine), IDCCM (Critical Care), Mumbai,PG Dip in DM & Renal Management (RCP LONDON, UK),FIDM (Diabetes) CMC VELLORE",
       description:
         "Experienced Diabetologist and General Medicine specialist dedicated to providing comprehensive care and management for diabetes and general health concerns.",
     },
@@ -208,6 +214,8 @@ const departmentData = [
       imgUrl: "/images/mainUpload/docStock.jpg",
       name: "Dr. Ankita Taywade",
       designation: "Consultant Radiologist",
+      degree:
+        "MBBS - GMC Nagpur DMRD - GOLD Medallist (Nair Hospital, Mumbai), DNB Radio Diagnosis (Jaslok Hospital, Mumbai)",
       description:
         "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
     },
@@ -216,83 +224,17 @@ const departmentData = [
         title: "32 SLICE GE REVOLUTION CT SCAN",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
-      {
-        title: "Head to Toe Spiral CT Scan on Advanced Machine",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title:
-          "CT Angiography and Perfusion Studies of Head / Neck / Body / Extremities",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Virtual Bronchoscopy & Colonoscopy",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "CT Urography/Dual/Triple Phase Organ Imaging",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Oncology and Cancer Imaging",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "HRCT Chest/Temporal Bone (Cochlear Imaging)/PNS",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Skeletal and Spine Scanning with Advanced 3D Reconstruction",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Pediatric Low Dose Radiation Scan",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
+
       {
         title: "3D/4D/5D SONOGRAPHY",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
-      {
-        title: "Panoramic Organ Imaging",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Targeted Obstetric Imaging",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "High Resolution Abdominal USG",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Small Parts / Transvaginal / Transrectal USG",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Musculoskeletal & Neurosonography",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Sonomammography",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Shear wave/strain Elastography for Liver. Breast, Thyroid etc.",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
+
       {
         title: "COLOUR DOPPLER Peripheral Arterial & Venous",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
-      {
-        title: "Carotid/Renal / Abdominal Obstetric & Gynaec",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "2D ECHO Cardiography",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
+
       {
         title: "DIGITAL X-RAY Conventional Radiography",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
@@ -316,6 +258,9 @@ const departmentData = [
       imgUrl: "/images/mainUpload/docStock.jpg",
       name: "Dr. Anupama Zade",
       designation: "Consultant Intensivist, CriticalCare Physician",
+      degree:
+        "MBBS, MD, DNB Anaesthesia, Critical Care & Pain, TMH IDCCM, EDIC European Diploma in Intensive Care, London Ex-ICM Fellow NHS UK.",
+
       description:
         "Experienced Intensivist and Critical Care Physician adept at providing expert care for critically ill patients in intensive care settings",
     },
@@ -345,14 +290,14 @@ const departmentData = [
         title: "Management of various infections",
         iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
       },
-      {
-        title: "Drug overdose and poisoning",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
-      {
-        title: "Post ICU/Hospital discharge rehabilitation",
-        iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
-      },
+      // {
+      //   title: "Drug overdose and poisoning",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
+      // {
+      //   title: "Post ICU/Hospital discharge rehabilitation",
+      //   iconUrl: "/images/mainUpload/DeptLogo/mediLogo.png",
+      // },
     ],
   },
   {
@@ -611,6 +556,7 @@ export default function DepartmentDetail() {
                 name={dept.doctor.name}
                 designation={dept.doctor.designation}
                 description={dept.doctor.description}
+                degree={dept.doctor.degree}
               />
             </div>
           </Section>

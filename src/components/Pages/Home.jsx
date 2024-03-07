@@ -202,6 +202,8 @@ const teamData = [
     imgUrl: "images/mainUpload/docStock.jpg",
     name: "Dr. Shounak Taywade",
     designation: "Consultant Orthopaedics and Joint Replacement Surgeon",
+    degree:
+      "MBBS, M.S Orthopaedics Fellowship in Adult Joint Reconstruction (UK,Mumbai)",
     description:
       "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement surgeries",
     social: [
@@ -214,6 +216,8 @@ const teamData = [
     imgUrl: "images/mainUpload/docStock.jpg",
     name: "Dr. Ankita Taywade",
     designation: "Consultant Radiologist",
+    degree:
+      "MBBS - GMC Nagpur DMRD - GOLD Medallist (Nair Hospital, Mumbai), DNB Radio Diagnosis (Jaslok Hospital, Mumbai)",
     description:
       "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
     social: [
