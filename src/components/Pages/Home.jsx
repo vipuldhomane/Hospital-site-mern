@@ -242,9 +242,9 @@ const teamData = [
   // },
 ];
 const social = [
-  { icon: "fa6-brands:facebook-f", href: "/about" },
-  { icon: "fa6-brands:linkedin-in", href: "/about" },
-  { icon: "fa6-brands:twitter", href: "/about" },
+  { icon: "fa6-brands:facebook", href: "/about" },
+  { icon: "fa6-brands:instagram", href: "/about" },
+  { icon: "fa6-brands:youtube", href: "/about" },
 ];
 export default function Home() {
   pageTitle("Home");
@@ -377,19 +377,26 @@ export default function Home() {
       {/* End Testimonial */}
       {/* Start Testimonial */}
       <Section
-        topMd={185}
-        topLg={140}
-        topXl={100}
+        // topMd={185}
+        // topLg={140}
+        // topXl={100}
         bottomMd={200}
         bottomLg={150}
         bottomXl={110}
       >
         <div className="socialLinks">
           <h3>Follow us for Latest Updates on HealthCare</h3>
-          <div className="cs_social_links">
+          <div className="cs_social_links ">
             {social?.map((item, index) => (
-              <Link to={item.href} key={index}>
-                <Icon icon={item.icon} />
+              <Link
+                to={item.href}
+                key={index}
+                style={{ height: "50px", width: "50px" }}
+              >
+                <Icon
+                  icon={item.icon}
+                  style={{ height: "30px", width: "30px", margin: "5px" }}
+                />
               </Link>
             ))}
           </div>

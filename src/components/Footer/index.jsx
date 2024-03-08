@@ -19,6 +19,7 @@ const menuDataTwo = [
   { title: "Terms and Conditions", href: "/" },
 ];
 
+const year = new Date().getFullYear();
 export default function Footer() {
   return (
     <footer className="cs_footer cs_style_1 cs_heading_color">
@@ -75,7 +76,7 @@ export default function Footer() {
           <div className="cs_footer_bottom_in">
             <SocialWidget />
             <div className="cs_copyright">
-              Copyright © 2024 Taywade Multispeciality Hospital. All rights
+              Copyright © {year} Taywade Multispeciality Hospital. All rights
               reserved.
             </div>
           </div>

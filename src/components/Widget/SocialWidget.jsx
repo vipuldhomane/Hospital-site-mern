@@ -1,6 +1,6 @@
-import { Icon } from '@iconify/react';
-import React from 'react';
-import { Link } from 'react-router-dom';
+import { Icon } from "@iconify/react";
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SocialWidget() {
   return (
@@ -13,12 +13,12 @@ export default function SocialWidget() {
         <Link to="/">
           <Icon icon="fa-brands:youtube" />
         </Link>
-        <Link to="/">
+        {/* <Link to="/">
           <Icon icon="fa-brands:linkedin-in" />
         </Link>
         <Link to="/">
           <Icon icon="fa-brands:twitter" />
-        </Link>
+        </Link> */}
         <Link to="/">
           <Icon icon="fa-brands:instagram" />
         </Link>
