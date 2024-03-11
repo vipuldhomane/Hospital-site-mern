@@ -21,7 +21,7 @@ const departmentData = [
       "Welcome to Taywade Hospital, where orthopedic excellence meets compassionate care. Our dedicated orthopedic team specializes in restoring mobility and improving quality of life. From fractures to joint replacements, we offer comprehensive treatments tailored to your needs. At Taywade Hospital, we utilize cutting-edge technology and advanced surgical techniques to ensure optimal outcomes for our patients. Whether you're suffering from sports injuries, arthritis, or spinal conditions, trust our experienced orthopedic specialists to provide personalized care every step of the way. Your journey to better musculoskeletal health starts here. Discover the difference at Taywade Hospital – where your well-being is our priority.",
     deptImg: "/images/mainUpload/DeptPhotos/orthoDept.jpg",
     doctor: {
-      imgUrl: "/images/mainUpload/docStock.jpg",
+      imgUrl: "/images/mainUpload/docImg/shaunak.jpg",
       name: "Dr. Shounak Taywade",
       designation: "Consultant Orthopaedics and Joint Replacement Surgeon",
       degree:
@@ -69,7 +69,7 @@ const departmentData = [
     deptImg: "/images/mainUpload/DeptPhotos/generalMedDept.jpg",
 
     doctor: {
-      imgUrl: "/images/mainUpload/docStock.jpg",
+      imgUrl: "/images/mainUpload/docImg/paras.jpg",
       name: "Dr.  Paras Zunke",
       designation: "Consultant General medicine and Diabetologist",
 
@@ -88,7 +88,7 @@ const departmentData = [
       "At Taywade Hospital, our radiology department offers cutting-edge diagnostic imaging services to aid in accurate disease detection and treatment planning. With state-of-the-art equipment and experienced radiologists, we provide a comprehensive range of imaging modalities, including X-rays, MRIs, CT scans, and ultrasounds, ensuring precise and timely diagnosis for optimal patient care.",
     deptImg: "/images/mainUpload/DeptPhotos/radioDept.jpg",
     doctor: {
-      imgUrl: "/images/mainUpload/docStock.jpg",
+      imgUrl: "/images/mainUpload/docImg/Ankita.jpg",
       name: "Dr. Ankita Taywade",
       designation: "Consultant Radiologist",
       degree:
@@ -132,7 +132,7 @@ const departmentData = [
       "In our advanced ICU facility, Taywade Hospital delivers exceptional critical care medicine, catering to patients with life-threatening conditions. Our multidisciplinary team of intensivists, nurses, and support staff is dedicated to providing round-the-clock monitoring, advanced interventions, and compassionate support to ensure the best possible outcomes for every patient.",
     deptImg: "/images/mainUpload/DeptPhotos/icuDept.jpg",
     doctor: {
-      imgUrl: "/images/mainUpload/docStock.jpg",
+      imgUrl: "/images/mainUpload/docImg/anupama.jpg",
       name: "Dr. Anupama Zade",
       designation: "Consultant Intensivist, CriticalCare Physician",
       degree:

@@ -199,32 +199,32 @@ const aboutFeatureList = [
 ];
 const teamData = [
   {
-    imgUrl: "images/mainUpload/docStock.jpg",
+    imgUrl: "images/mainUpload/docImg/shaunak.jpg",
     name: "Dr. Shounak Taywade",
     designation: "Consultant Orthopaedics and Joint Replacement Surgeon",
     degree:
       "MBBS, M.S Orthopaedics Fellowship in Adult Joint Reconstruction (UK,Mumbai)",
     description:
       "Head of Orthopaedics and Joint Replacement with extensive experience in leading orthopaedic teams and spearheading innovative approaches to joint replacement surgeries",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
+    // social: [
+    //   { icon: "fa6-brands:facebook-f", href: "/about" },
+    //   { icon: "fa6-brands:linkedin-in", href: "/about" },
+    //   { icon: "fa6-brands:twitter", href: "/about" },
+    // ],
   },
   {
-    imgUrl: "images/mainUpload/docStock.jpg",
+    imgUrl: "images/mainUpload/docImg/Ankita.jpg",
     name: "Dr. Ankita Taywade",
     designation: "Consultant Radiologist",
     degree:
       "MBBS - GMC Nagpur DMRD - GOLD Medallist (Nair Hospital, Mumbai), DNB Radio Diagnosis (Jaslok Hospital, Mumbai)",
     description:
       "Esteemed Head of the Radiology Department, expertly orchestrating advanced imaging services and fostering excellence in diagnostics",
-    social: [
-      { icon: "fa6-brands:facebook-f", href: "/about" },
-      { icon: "fa6-brands:linkedin-in", href: "/about" },
-      { icon: "fa6-brands:twitter", href: "/about" },
-    ],
+    // social: [
+    //   { icon: "fa6-brands:facebook-f", href: "/about" },
+    //   { icon: "fa6-brands:linkedin-in", href: "/about" },
+    //   { icon: "fa6-brands:twitter", href: "/about" },
+    // ],
   },
   // {
   //   imgUrl: "images/mainUpload/docStock.jpg",
@@ -242,9 +242,18 @@ const teamData = [
   // },
 ];
 const social = [
-  { icon: "fa6-brands:facebook", href: "/about" },
-  { icon: "fa6-brands:instagram", href: "/about" },
-  { icon: "fa6-brands:youtube", href: "/about" },
+  // {
+  //   icon: "fa6-brands:facebook",
+  //   href: "https://www.instagram.com/taywadehospitalnagpur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  // },
+  {
+    icon: "fa6-brands:instagram",
+    href: "https://www.instagram.com/taywadehospitalnagpur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+  },
+  {
+    icon: "fa6-brands:youtube",
+    href: "https://www.youtube.com/channel/UCYbKx2CbGOth1eJnE9eZVkA",
+  },
 ];
 export default function Home() {
   pageTitle("Home");
@@ -366,7 +375,7 @@ export default function Home() {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/videoseries?si=sVXI7lEuwvPPeJz5&amp;list=PLEVkQGIATCXIBlDXgfCz-p7b0OJNBgULN"
+            src="https://www.youtube.com/embed/videoseries?si=qxEDDmmAmcgqGzAf&amp;list=PLQbGu8ErUvWQ7XrSoqHDIJPZ69kHZT3KO"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
